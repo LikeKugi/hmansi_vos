@@ -206,7 +206,7 @@
 		if ( (Math.abs( scroll - position ) < 3) || kndScrollOutOfBounds( scroll ) ) {
 			return true;
 		}
-		
+
 		//stick header
 		if (scroll < position) { //upword
 			$siteHeader.removeClass('invisible').addClass('fixed-header');
@@ -217,7 +217,7 @@
 		else {
 			$siteHeader.removeClass('fixed-header').removeClass('invisible');
 		}
-		
+
 		//sticky sharing
 		if ( winW >= breakPointMedium && $( '#knd_sharing' ).length > 0 ) {
 			stickInParent( '#knd_sharing .social-likes-wrapper', '#knd_sharing', position, fixedTopPosition );
@@ -509,6 +509,7 @@
 
 	kndFocusInModal( '.site-nav' );
 	kndFocusInModal( '.knd-search' );
+	kndFocusInModal( '#ally-settings' );
 
 	knd.getScrollBarWidth();
 
