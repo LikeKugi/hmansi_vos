@@ -1,0 +1,30 @@
+.basement {
+    text-align: left;
+
+    &__title {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    &__paragraph {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        &:not(:last-of-type) {
+            margin-bottom: 0.8rem;
+        }
+    }
+
+    &__text {
+        text-align: left;
+
+        & a {
+            color: var(--knd-footer-link-color, #4d606a);
+        }
+    }
+
+    &__icon {
+        color: var(--knd-block-link-color);
+    }
+}

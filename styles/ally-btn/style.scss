@@ -1,0 +1,65 @@
+// #menu-primary-menu {
+//     .blind-version {
+//         position: relative;
+
+//         &__text {
+//             width: 1px;
+//             height: 1px;
+//             visibility: hidden;
+
+//             &::before {
+//                 content: '';
+//                 position: absolute;
+//                 width: 1rem;
+//                 height: 1rem;
+//                 background-position: center;
+//                 background-repeat: no-repeat;
+//                 background-size: cover;
+//                 background-image: url('http://dev.regvos.ru/wp-content/uploads/2024/01/no-back-colorful-2.png');
+//             }
+//         }
+
+//     }
+// }
+
+// #menu-primary-menu-1 {
+//     .blind-version {
+//         & a::before {
+//             display: none;
+//         }
+//     }
+// }
+
+.knd-header-nav>.menu .ally {
+    a {
+        padding: 0;
+    }
+}
+
+#menu-glavnoe-menyu {
+    .ally {
+        a {
+            padding: 0;
+        }
+
+        &__icon {
+            display: block;
+        }
+
+        &__text {
+            display: none;
+        }
+    }
+}
+
+#menu-glavnoe-menyu-1 {
+    .ally {
+        &__icon {
+            display: none;
+        }
+
+        &__text {
+            display: inline;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.textwidget {
+
+    &__box {
+        &:not(:last-of-type) {
+            margin-bottom: 0.5rem;
+        }
+
+    }
+
+    &__subtitle {
+        font-size: 0.5rem;
+        margin-bottom: 0.2rem;
+    }
+}

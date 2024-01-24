@@ -1,0 +1,24 @@
+.basement {
+  text-align: left;
+}
+.basement__title {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.basement__paragraph {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.basement__paragraph:not(:last-of-type) {
+  margin-bottom: 0.8rem;
+}
+.basement__text {
+  text-align: left;
+}
+.basement__text a {
+  color: var(--knd-footer-link-color, #4d606a);
+}
+.basement__icon {
+  color: var(--knd-block-link-color);
+}/*# sourceMappingURL=styles.css.map */

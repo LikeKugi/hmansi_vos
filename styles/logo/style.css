@@ -1,0 +1,8 @@
+.logo img,
+.knd-footer-logo__image img {
+  transition: transform 0.2s;
+}
+.logo img:hover,
+.knd-footer-logo__image img:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */

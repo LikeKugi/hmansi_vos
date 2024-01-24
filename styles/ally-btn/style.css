@@ -1,0 +1,20 @@
+.knd-header-nav > .menu .ally a {
+  padding: 0;
+}
+
+#menu-glavnoe-menyu .ally a {
+  padding: 0;
+}
+#menu-glavnoe-menyu .ally__icon {
+  display: block;
+}
+#menu-glavnoe-menyu .ally__text {
+  display: none;
+}
+
+#menu-glavnoe-menyu-1 .ally__icon {
+  display: none;
+}
+#menu-glavnoe-menyu-1 .ally__text {
+  display: inline;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,3040 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Kandinsky\n"
+"POT-Creation-Date: 2023-07-25 01:25+0300\n"
+"PO-Revision-Date: 2023-07-25 01:24+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: 404.php:14
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:15
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"Unfortunately this page has been removed or never exists. Please, use the "
+"search field to find the information you need or visit the homepage."
+msgstr ""
+
+#: archive-leyka_campaign.php:30 index.php:87
+msgid "Unfortunately, nothing found"
+msgstr ""
+
+#: archive-leyka_campaign.php:34
+msgid "Campaigns navigation"
+msgstr ""
+
+#: archive-leyka_donation.php:20
+msgid "Campaign"
+msgstr ""
+
+#: archive-leyka_donation.php:39
+msgid "Anonymous"
+msgstr ""
+
+#: archive-leyka_donation.php:54
+msgid "Donations navigation"
+msgstr ""
+
+#: assets/js/admin.js:117 inc/events/events-metabox.php:148
+#: src/js/admin/admin.js:117
+msgid "Remove time"
+msgstr ""
+
+#: assets/js/admin.js:133 src/js/admin/admin.js:133
+msgid "Delete schedule"
+msgstr ""
+
+#: assets/js/admin.js:136 inc/events/events-metabox.php:158
+#: src/js/admin/admin.js:136
+msgid "Add time"
+msgstr ""
+
+#: assets/js/admin.js:161 inc/events/events-functions.php:371
+#: src/js/admin/admin.js:161
+msgid "Label"
+msgstr ""
+
+#: assets/js/admin.js:162 inc/events/events-functions.php:372
+#: src/js/admin/admin.js:162
+msgid "slug"
+msgstr ""
+
+#: assets/js/admin.js:163 inc/events/events-functions.php:374
+#: src/js/admin/admin.js:163
+msgid "Delete"
+msgstr ""
+
+#: assets/js/blocks.js:62 src/js/blocks/cover.js:61
+msgid "Cover"
+msgstr ""
+
+#: assets/js/blocks.js:63 src/js/blocks/cover.js:62
+msgid "Text over image."
+msgstr ""
+
+#: assets/js/blocks.js:66 src/js/blocks/cover.js:65
+msgid "image"
+msgstr ""
+
+#: assets/js/blocks.js:66 src/js/blocks/cover.js:65
+msgid "cover"
+msgstr ""
+
+#: assets/js/blocks.js:85 core/editor/blocks/cover.php:30
+#: src/js/blocks/cover.js:84
+msgid "We believe"
+msgstr ""
+
+#: assets/js/blocks.js:89 core/editor/blocks/cover.php:34
+#: src/js/blocks/cover.js:88
+msgid ""
+"People are created to love and be loved; People need support and help; Your "
+"life and your story are important; Better days and a bright life are close; "
+"Hope and help are real."
+msgstr ""
+
+#: assets/js/blocks.js:93 core/editor/blocks/cover.php:38
+#: src/js/blocks/cover.js:92
+msgid "Recommendations"
+msgstr ""
+
+#: assets/js/blocks.js:133 src/js/blocks/cover.js:132
+msgid "Default"
+msgstr ""
+
+#: assets/js/blocks.js:138 src/js/blocks/cover.js:137
+msgid "Bottom"
+msgstr ""
+
+#: assets/js/blocks.js:157 assets/js/blocks.js:485 assets/js/blocks.js:960
+#: assets/js/blocks.js:1316 assets/js/blocks.js:2099 assets/js/blocks.js:3162
+#: assets/js/blocks.js:3705 assets/js/blocks.js:4122 assets/js/blocks.js:4649
+#: src/js/blocks/cover.js:156 src/js/blocks/cta.js:142
+#: src/js/blocks/events.js:264 src/js/blocks/hero.js:182
+#: src/js/blocks/info.js:164 src/js/blocks/news.js:812
+#: src/js/blocks/partners.js:200 src/js/blocks/people.js:239
+#: src/js/blocks/projects.js:323
+msgid "Settings"
+msgstr ""
+
+#: assets/js/blocks.js:160 assets/js/blocks.js:984 assets/js/blocks.js:2125
+#: assets/js/blocks.js:2164 assets/js/blocks.js:2203 assets/js/blocks.js:3242
+#: assets/js/blocks.js:3708 assets/js/blocks.js:4126 assets/js/blocks.js:4652
+#: modules/donations/widgets.php:125 src/js/blocks/cover.js:159
+#: src/js/blocks/events.js:288 src/js/blocks/info.js:190
+#: src/js/blocks/info.js:229 src/js/blocks/info.js:268
+#: src/js/blocks/news.js:892 src/js/blocks/partners.js:203
+#: src/js/blocks/people.js:243 src/js/blocks/projects.js:326
+msgid "Heading"
+msgstr ""
+
+#: assets/js/blocks.js:168 src/js/blocks/cover.js:167
+msgid "Content"
+msgstr ""
+
+#: assets/js/blocks.js:176 assets/js/blocks.js:4918 src/js/blocks/cover.js:175
+#: src/js/blocks/recommend.js:94
+msgid "Recommendation"
+msgstr ""
+
+#: assets/js/blocks.js:184 assets/js/blocks.js:1439 src/js/blocks/cover.js:183
+#: src/js/blocks/hero.js:305
+msgid "Background Image"
+msgstr ""
+
+#: assets/js/blocks.js:227 assets/js/blocks.js:1490 src/js/blocks/cover.js:226
+#: src/js/blocks/hero.js:356
+msgid "Remove Background Image"
+msgstr ""
+
+#: assets/js/blocks.js:239 assets/js/blocks.js:1502 src/js/blocks/cover.js:238
+#: src/js/blocks/hero.js:368
+msgid "Add Background Image"
+msgstr ""
+
+#: assets/js/blocks.js:250 assets/js/blocks.js:1337 src/js/blocks/cover.js:249
+#: src/js/blocks/hero.js:203
+msgid "Min Height"
+msgstr ""
+
+#: assets/js/blocks.js:272 assets/js/blocks.js:611 assets/js/blocks.js:1077
+#: assets/js/blocks.js:1721 assets/js/blocks.js:2237 assets/js/blocks.js:3063
+#: assets/js/blocks.js:3778 assets/js/blocks.js:4197 assets/js/blocks.js:4700
+#: src/js/blocks/cover.js:271 src/js/blocks/cta.js:268
+#: src/js/blocks/events.js:381 src/js/blocks/hero.js:587
+#: src/js/blocks/info.js:302 src/js/blocks/news.js:713
+#: src/js/blocks/partners.js:273 src/js/blocks/people.js:314
+#: src/js/blocks/projects.js:374
+msgid "Colors"
+msgstr ""
+
+#: assets/js/blocks.js:278 assets/js/blocks.js:617 assets/js/blocks.js:1083
+#: assets/js/blocks.js:1734 assets/js/blocks.js:2243 assets/js/blocks.js:3068
+#: assets/js/blocks.js:3784 assets/js/blocks.js:4203 assets/js/blocks.js:4706
+#: assets/js/blocks.js:4941 src/js/blocks/cover.js:277 src/js/blocks/cta.js:274
+#: src/js/blocks/events.js:387 src/js/blocks/hero.js:600
+#: src/js/blocks/info.js:308 src/js/blocks/news.js:718
+#: src/js/blocks/partners.js:279 src/js/blocks/people.js:320
+#: src/js/blocks/projects.js:380 src/js/blocks/recommend.js:117
+msgid "Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:285 assets/js/blocks.js:631 assets/js/blocks.js:1727
+#: assets/js/blocks.js:4931 src/js/blocks/cover.js:284 src/js/blocks/cta.js:288
+#: src/js/blocks/hero.js:593 src/js/blocks/recommend.js:107
+msgid "Text Color"
+msgstr ""
+
+#: assets/js/blocks.js:292 src/js/blocks/cover.js:291
+msgid "Content Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:299 src/js/blocks/cover.js:298
+msgid "Recommendation Color"
+msgstr ""
+
+#: assets/js/blocks.js:306 src/js/blocks/cover.js:305
+msgid "Recommendation Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:386 src/js/blocks/cta.js:43
+msgid "Call To Action"
+msgstr ""
+
+#: assets/js/blocks.js:387 src/js/blocks/cta.js:44
+msgid "Title, Subtitle, Description, Button, and Image."
+msgstr ""
+
+#: assets/js/blocks.js:390 src/js/blocks/cta.js:47
+msgid "call"
+msgstr ""
+
+#: assets/js/blocks.js:390 src/js/blocks/cta.js:47
+msgid "cta"
+msgstr ""
+
+#: assets/js/blocks.js:390 src/js/blocks/cta.js:47
+msgid "action"
+msgstr ""
+
+#: assets/js/blocks.js:415 assets/js/blocks.js:460
+#: core/editor/blocks/cta.php:30 src/js/blocks/cta.js:72
+#: src/js/blocks/cta.js:117
+msgid "Заголовок блока. Отразите тут текущую ситуацию."
+msgstr ""
+
+#: assets/js/blocks.js:419 assets/js/blocks.js:461
+#: core/editor/blocks/cta.php:34 src/js/blocks/cta.js:76
+#: src/js/blocks/cta.js:118
+msgid "Здесь должен быть призыв к действию"
+msgstr ""
+
+#: assets/js/blocks.js:423 assets/js/blocks.js:462
+#: core/editor/blocks/cta.php:38 src/js/blocks/cta.js:80
+#: src/js/blocks/cta.js:119
+msgid "Действие"
+msgstr ""
+
+#: assets/js/blocks.js:488 assets/js/blocks.js:2102 src/js/blocks/cta.js:145
+#: src/js/blocks/info.js:167
+msgid "Title"
+msgstr ""
+
+#: assets/js/blocks.js:496 assets/js/blocks.js:2110 assets/js/blocks.js:2133
+#: assets/js/blocks.js:2172 assets/js/blocks.js:2211 assets/js/blocks.js:4922
+#: src/js/blocks/cta.js:153 src/js/blocks/info.js:175 src/js/blocks/info.js:198
+#: src/js/blocks/info.js:237 src/js/blocks/info.js:276
+#: src/js/blocks/recommend.js:98
+msgid "Text"
+msgstr ""
+
+#: assets/js/blocks.js:504 assets/js/blocks.js:1365 src/js/blocks/cta.js:161
+#: src/js/blocks/hero.js:231
+msgid "Call to action Image"
+msgstr ""
+
+#: assets/js/blocks.js:546 assets/js/blocks.js:1416 src/js/blocks/cta.js:203
+#: src/js/blocks/hero.js:282
+msgid "Remove Image"
+msgstr ""
+
+#: assets/js/blocks.js:558 assets/js/blocks.js:1428 src/js/blocks/cta.js:215
+#: src/js/blocks/hero.js:294
+msgid "Add Image"
+msgstr ""
+
+#: assets/js/blocks.js:574 core/customizer/theme-mods/header.php:366
+#: core/customizer/theme-mods/header.php:490 src/js/blocks/cta.js:231
+msgid "Button"
+msgstr ""
+
+#: assets/js/blocks.js:579 assets/js/blocks.js:1269 assets/js/blocks.js:1289
+#: assets/js/blocks.js:1521 core/template-tags.php:542
+#: core/template-tags.php:562 core/template-tags.php:619
+#: src/js/blocks/cta.js:236 src/js/blocks/hero.js:135 src/js/blocks/hero.js:155
+#: src/js/blocks/hero.js:387
+msgid "Button text"
+msgstr ""
+
+#: assets/js/blocks.js:587 assets/js/blocks.js:1529 src/js/blocks/cta.js:244
+#: src/js/blocks/hero.js:395
+msgid "Button url"
+msgstr ""
+
+#: assets/js/blocks.js:596 src/js/blocks/cta.js:253
+msgid "Open in new tab"
+msgstr ""
+
+#: assets/js/blocks.js:624 src/js/blocks/cta.js:281
+msgid "Title Color"
+msgstr ""
+
+#: assets/js/blocks.js:638 assets/js/blocks.js:1741 src/js/blocks/cta.js:295
+#: src/js/blocks/hero.js:607
+msgid "Button Background"
+msgstr ""
+
+#: assets/js/blocks.js:645 assets/js/blocks.js:1748 src/js/blocks/cta.js:302
+#: src/js/blocks/hero.js:614
+msgid "Button Color"
+msgstr ""
+
+#: assets/js/blocks.js:652 assets/js/blocks.js:1755 src/js/blocks/cta.js:309
+#: src/js/blocks/hero.js:621
+msgid "Button Hover Background"
+msgstr ""
+
+#: assets/js/blocks.js:659 assets/js/blocks.js:1762 src/js/blocks/cta.js:316
+#: src/js/blocks/hero.js:628
+msgid "Button Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:730 page-events.php:136 src/js/blocks/events.js:34
+msgid "Events"
+msgstr ""
+
+#: assets/js/blocks.js:733 core/admin.php:319 src/js/blocks/events.js:37
+msgid "Events Manager"
+msgstr ""
+
+#: assets/js/blocks.js:735 src/js/blocks/events.js:39
+msgid "events"
+msgstr ""
+
+#: assets/js/blocks.js:745 core/editor/blocks/events.php:18 page-events.php:19
+#: src/js/blocks/events.js:49
+msgid "Schedule of events"
+msgstr ""
+
+#: assets/js/blocks.js:807 src/js/blocks/events.js:111
+msgid "List"
+msgstr ""
+
+#: assets/js/blocks.js:812 assets/js/blocks.js:3725 assets/js/blocks.js:4144
+#: src/js/blocks/events.js:116 src/js/blocks/partners.js:220
+#: src/js/blocks/people.js:261
+msgid "Grid"
+msgstr ""
+
+#: assets/js/blocks.js:833 src/js/blocks/events.js:137
+msgid "Include events"
+msgstr ""
+
+#: assets/js/blocks.js:892 assets/js/blocks.js:2674 assets/js/blocks.js:4561
+#: src/js/blocks/events.js:196 src/js/blocks/news.js:324
+#: src/js/blocks/projects.js:235
+msgid "Link Title"
+msgstr ""
+
+#: assets/js/blocks.js:903 assets/js/blocks.js:2149 assets/js/blocks.js:2188
+#: assets/js/blocks.js:2227 assets/js/blocks.js:2685 assets/js/blocks.js:4572
+#: src/js/blocks/events.js:207 src/js/blocks/info.js:214
+#: src/js/blocks/info.js:253 src/js/blocks/info.js:292
+#: src/js/blocks/news.js:335 src/js/blocks/projects.js:246
+msgid "Link Url"
+msgstr ""
+
+#: assets/js/blocks.js:916 assets/js/blocks.js:2698 assets/js/blocks.js:4585
+#: src/js/blocks/events.js:220 src/js/blocks/news.js:348
+#: src/js/blocks/projects.js:259
+msgid "Remove Link"
+msgstr ""
+
+#: assets/js/blocks.js:940 assets/js/blocks.js:2722 assets/js/blocks.js:4609
+#: src/js/blocks/events.js:244 src/js/blocks/news.js:372
+#: src/js/blocks/projects.js:283
+msgid "Add Link"
+msgstr ""
+
+#: assets/js/blocks.js:973 src/js/blocks/events.js:277
+msgid "Edit events"
+msgstr ""
+
+#: assets/js/blocks.js:993 src/js/blocks/events.js:297
+msgid "Events to show"
+msgstr ""
+
+#: assets/js/blocks.js:1008 assets/js/blocks.js:3276 assets/js/blocks.js:4689
+#: src/js/blocks/events.js:312 src/js/blocks/news.js:926
+#: src/js/blocks/projects.js:363
+msgid "Heading Links"
+msgstr ""
+
+#: assets/js/blocks.js:1019 assets/js/blocks.js:3428 assets/js/blocks.js:3806
+#: assets/js/blocks.js:4245 assets/js/blocks.js:4748
+#: src/js/blocks/events.js:323 src/js/blocks/news.js:1078
+#: src/js/blocks/partners.js:301 src/js/blocks/people.js:362
+#: src/js/blocks/projects.js:422
+msgid "Query"
+msgstr ""
+
+#: assets/js/blocks.js:1025 assets/js/blocks.js:3434 assets/js/blocks.js:3812
+#: assets/js/blocks.js:4251 assets/js/blocks.js:4754
+#: src/js/blocks/events.js:329 src/js/blocks/news.js:1084
+#: src/js/blocks/partners.js:307 src/js/blocks/people.js:368
+#: src/js/blocks/projects.js:428
+msgid "Order by"
+msgstr ""
+
+#: assets/js/blocks.js:1027 src/js/blocks/events.js:331
+msgid "Published Date"
+msgstr ""
+
+#: assets/js/blocks.js:1028 src/js/blocks/events.js:332
+msgid "Event Start Date"
+msgstr ""
+
+#: assets/js/blocks.js:1029 src/js/blocks/events.js:333
+msgid "Included events"
+msgstr ""
+
+#: assets/js/blocks.js:1040 assets/js/blocks.js:3450 assets/js/blocks.js:3828
+#: assets/js/blocks.js:4267 assets/js/blocks.js:4770
+#: src/js/blocks/events.js:344 src/js/blocks/news.js:1100
+#: src/js/blocks/partners.js:323 src/js/blocks/people.js:384
+#: src/js/blocks/projects.js:444
+msgid "Offset"
+msgstr ""
+
+#: assets/js/blocks.js:1045 src/js/blocks/events.js:349
+msgid "Number of events to skip"
+msgstr ""
+
+#: assets/js/blocks.js:1056 src/js/blocks/events.js:360
+msgid "What events to show"
+msgstr ""
+
+#: assets/js/blocks.js:1058 src/js/blocks/events.js:362
+msgid "All events"
+msgstr ""
+
+#: assets/js/blocks.js:1059 src/js/blocks/events.js:363
+msgid "Future events"
+msgstr ""
+
+#: assets/js/blocks.js:1090 assets/js/blocks.js:2253 assets/js/blocks.js:3075
+#: assets/js/blocks.js:3794 assets/js/blocks.js:4213 assets/js/blocks.js:4716
+#: src/js/blocks/events.js:394 src/js/blocks/info.js:318
+#: src/js/blocks/news.js:725 src/js/blocks/partners.js:289
+#: src/js/blocks/people.js:330 src/js/blocks/projects.js:390
+msgid "Heading Color"
+msgstr ""
+
+#: assets/js/blocks.js:1097 assets/js/blocks.js:4736
+#: src/js/blocks/events.js:401 src/js/blocks/projects.js:410
+msgid "Links Color"
+msgstr ""
+
+#: assets/js/blocks.js:1192 src/js/blocks/hero.js:58
+msgid "Main Block"
+msgstr ""
+
+#: assets/js/blocks.js:1193 src/js/blocks/hero.js:59
+msgid "Title, description, button, and background image."
+msgstr ""
+
+#: assets/js/blocks.js:1206 assets/js/blocks.js:1287
+#: core/editor/blocks/hero.php:18 src/js/blocks/hero.js:72
+#: src/js/blocks/hero.js:153
+msgid "Заголовок проекта. Суть и основная идея."
+msgstr ""
+
+#: assets/js/blocks.js:1210 assets/js/blocks.js:1288
+#: core/editor/blocks/hero.php:22 src/js/blocks/hero.js:76
+#: src/js/blocks/hero.js:154
+msgid ""
+"Описание. Два-три коротких предложения, раскрывающие суть организации. "
+"Заголовок привлекает внимание, описание помогает понять как можно "
+"поучаствовать, кнопка реализует действие."
+msgstr ""
+
+#: assets/js/blocks.js:1320 src/js/blocks/hero.js:186
+msgid "Call to action title"
+msgstr ""
+
+#: assets/js/blocks.js:1328 src/js/blocks/hero.js:194
+msgid "Call to action text"
+msgstr ""
+
+#: assets/js/blocks.js:1360 src/js/blocks/hero.js:226
+msgid "Images"
+msgstr ""
+
+#: assets/js/blocks.js:1372 src/js/blocks/hero.js:238
+msgid "Displayed on the right side of the Call to action text"
+msgstr ""
+
+#: assets/js/blocks.js:1446 src/js/blocks/hero.js:312
+msgid "Recommended size 1600x663px"
+msgstr ""
+
+#: assets/js/blocks.js:1516 src/js/blocks/hero.js:382
+msgid "Buttons"
+msgstr ""
+
+#: assets/js/blocks.js:1537 src/js/blocks/hero.js:403
+msgid "Additional Button text"
+msgstr ""
+
+#: assets/js/blocks.js:1545 src/js/blocks/hero.js:411
+msgid "Additional Button url"
+msgstr ""
+
+#: assets/js/blocks.js:1556 src/js/blocks/hero.js:422
+msgid "Overlay"
+msgstr ""
+
+#: assets/js/blocks.js:1573 src/js/blocks/hero.js:439
+msgid "Overlay Gradient Start Color"
+msgstr ""
+
+#: assets/js/blocks.js:1605 src/js/blocks/hero.js:471
+msgid "Overlay Gradient End Color"
+msgstr ""
+
+#: assets/js/blocks.js:1627 assets/js/blocks.js:2944 src/js/blocks/hero.js:493
+#: src/js/blocks/news.js:594
+msgid "Typography"
+msgstr ""
+
+#: assets/js/blocks.js:1633 src/js/blocks/hero.js:499
+msgid "Heading level"
+msgstr ""
+
+#: assets/js/blocks.js:1819 src/js/blocks/hint.js:22
+msgid "Hint"
+msgstr ""
+
+#: assets/js/blocks.js:1823 src/js/blocks/hint.js:26
+msgid "hint"
+msgstr ""
+
+#: assets/js/blocks.js:1847 src/js/blocks/hint.js:50
+msgid "Up Arrow"
+msgstr ""
+
+#: assets/js/blocks.js:1852 src/js/blocks/hint.js:55
+msgid "Down Arrow"
+msgstr ""
+
+#: assets/js/blocks.js:1863 src/js/blocks/hint.js:66
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et eros eu "
+"felis."
+msgstr ""
+
+#: assets/js/blocks.js:1987 src/js/blocks/info.js:52
+msgid "About Project"
+msgstr ""
+
+#: assets/js/blocks.js:1990 src/js/blocks/info.js:55
+msgid "info"
+msgstr ""
+
+#: assets/js/blocks.js:1990 src/js/blocks/info.js:55
+msgid "columns"
+msgstr ""
+
+#: assets/js/blocks.js:1990 src/js/blocks/info.js:55
+msgid "about"
+msgstr ""
+
+#: assets/js/blocks.js:1991 src/js/blocks/info.js:56
+msgid "Subheading, heading and three columns."
+msgstr ""
+
+#: assets/js/blocks.js:2004 core/editor/blocks/info.php:30
+#: src/js/blocks/info.js:69
+msgid "Название организации/проекта или заголовок блока: «О нас», «О Проекте»"
+msgstr ""
+
+#: assets/js/blocks.js:2008 core/editor/blocks/info.php:34
+#: src/js/blocks/info.js:73
+msgid ""
+"Выразите тут цель, миссию или девиз организации. «Своей целью мы видим…», "
+"«Мы помогаем…»"
+msgstr ""
+
+#: assets/js/blocks.js:2012 src/js/blocks/info.js:77
+msgid "Who we are?"
+msgstr ""
+
+#: assets/js/blocks.js:2016 src/js/blocks/info.js:81
+msgid "What we do?"
+msgstr ""
+
+#: assets/js/blocks.js:2020 src/js/blocks/info.js:85
+msgid "Stop drinking?"
+msgstr ""
+
+#: assets/js/blocks.js:2024 src/js/blocks/info.js:89
+msgid ""
+"The charitable organization &#34;Line of Color&#34; helps to overcome "
+"alcohol addiction and return to a fulfilling life."
+msgstr ""
+
+#: assets/js/blocks.js:2028 src/js/blocks/info.js:93
+msgid ""
+"We organize rehabilitation programs, inform and help those who are ready to "
+"give up their addiction and return their lives."
+msgstr ""
+
+#: assets/js/blocks.js:2032 src/js/blocks/info.js:97
+msgid ""
+"Fill out the anonymous form on the website, choose a convenient time for an "
+"individual consultation, or sign up for a support group."
+msgstr ""
+
+#: assets/js/blocks.js:2036 src/js/blocks/info.js:101
+msgid "Learn about our work"
+msgstr ""
+
+#: assets/js/blocks.js:2040 src/js/blocks/info.js:105
+msgid "View projects"
+msgstr ""
+
+#: assets/js/blocks.js:2044 src/js/blocks/info.js:109
+msgid "Get help"
+msgstr ""
+
+#: assets/js/blocks.js:2120 src/js/blocks/info.js:185
+msgid "Column 1"
+msgstr ""
+
+#: assets/js/blocks.js:2141 assets/js/blocks.js:2180 assets/js/blocks.js:2219
+#: src/js/blocks/info.js:206 src/js/blocks/info.js:245
+#: src/js/blocks/info.js:284
+msgid "Link Text"
+msgstr ""
+
+#: assets/js/blocks.js:2159 src/js/blocks/info.js:224
+msgid "Column 2"
+msgstr ""
+
+#: assets/js/blocks.js:2198 src/js/blocks/info.js:263
+msgid "Column 3"
+msgstr ""
+
+#: assets/js/blocks.js:2263 src/js/blocks/info.js:328
+msgid "Second Heading Color"
+msgstr ""
+
+#: assets/js/blocks.js:2273 src/js/blocks/info.js:338
+msgid "Column Heading Color"
+msgstr ""
+
+#: assets/js/blocks.js:2283 src/js/blocks/info.js:348
+msgid "Column Text Color"
+msgstr ""
+
+#: assets/js/blocks.js:2293 src/js/blocks/info.js:358
+msgid "Column Link Color"
+msgstr ""
+
+#: assets/js/blocks.js:2303 src/js/blocks/info.js:368
+msgid "Column Link Color Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2313 src/js/blocks/info.js:378
+msgid "Column Link Underline Color"
+msgstr ""
+
+#: assets/js/blocks.js:2397 footer.php:76 modules/starter/plot_config.php:147
+#: modules/starter/plot_data_builder.php:563 src/js/blocks/news.js:47
+msgid "News"
+msgstr ""
+
+#: assets/js/blocks.js:2400 assets/js/blocks.js:4420 src/js/blocks/news.js:50
+#: src/js/blocks/projects.js:94
+msgid "news"
+msgstr ""
+
+#: assets/js/blocks.js:2400 assets/js/blocks.js:4421 src/js/blocks/news.js:50
+#: src/js/blocks/projects.js:95
+msgid "posts"
+msgstr ""
+
+#: assets/js/blocks.js:2400 assets/js/blocks.js:4422 src/js/blocks/news.js:50
+#: src/js/blocks/projects.js:96
+msgid "articles"
+msgstr ""
+
+#: assets/js/blocks.js:2401 src/js/blocks/news.js:51
+msgid "News tile in three column."
+msgstr ""
+
+#: assets/js/blocks.js:2616 assets/js/blocks.js:3667 assets/js/blocks.js:4082
+#: modules/org/hooks.php:11 src/js/blocks/news.js:266
+#: src/js/blocks/partners.js:162 src/js/blocks/people.js:199
+msgid "All Categories"
+msgstr ""
+
+#: assets/js/blocks.js:2737 src/js/blocks/news.js:387
+msgid "Small"
+msgstr ""
+
+#: assets/js/blocks.js:2742 src/js/blocks/news.js:392
+msgid "Normal"
+msgstr ""
+
+#: assets/js/blocks.js:2747 assets/js/blocks.js:3004 src/js/blocks/news.js:397
+#: src/js/blocks/news.js:654
+msgid "Medium"
+msgstr ""
+
+#: assets/js/blocks.js:2752 src/js/blocks/news.js:402
+msgid "Large"
+msgstr ""
+
+#: assets/js/blocks.js:2765 src/js/blocks/news.js:415
+msgid "Показать аватар автора"
+msgstr ""
+
+#: assets/js/blocks.js:2781 src/js/blocks/news.js:431
+msgid "Max number of words in excerpt"
+msgstr ""
+
+#: assets/js/blocks.js:2800 src/js/blocks/news.js:450
+msgid "Формат даты"
+msgstr ""
+
+#: assets/js/blocks.js:2815 src/js/blocks/news.js:465
+msgid "Относительная дата публикации"
+msgstr ""
+
+#: assets/js/blocks.js:2838 src/js/blocks/news.js:488
+msgid "Change content position"
+msgstr ""
+
+#: assets/js/blocks.js:2854 src/js/blocks/news.js:504
+msgid "Image Width"
+msgstr ""
+
+#: assets/js/blocks.js:2861 src/js/blocks/news.js:511
+msgid "1 / 3"
+msgstr ""
+
+#: assets/js/blocks.js:2865 src/js/blocks/news.js:515
+msgid "1 / 2"
+msgstr ""
+
+#: assets/js/blocks.js:2869 src/js/blocks/news.js:519
+msgid "2 / 3"
+msgstr ""
+
+#: assets/js/blocks.js:2884 src/js/blocks/news.js:534
+msgid "Image Position"
+msgstr ""
+
+#: assets/js/blocks.js:2891 src/js/blocks/news.js:541
+msgid "Align Left"
+msgstr ""
+
+#: assets/js/blocks.js:2895 src/js/blocks/news.js:545
+msgid "Align Right"
+msgstr ""
+
+#: assets/js/blocks.js:2906 src/js/blocks/news.js:556
+msgid "Posts to show"
+msgstr ""
+
+#: assets/js/blocks.js:2921 assets/js/blocks.js:3751 assets/js/blocks.js:4170
+#: assets/js/blocks.js:4674 src/js/blocks/news.js:571
+#: src/js/blocks/partners.js:246 src/js/blocks/people.js:287
+#: src/js/blocks/projects.js:348
+msgid "Columns"
+msgstr ""
+
+#: assets/js/blocks.js:2951 src/js/blocks/news.js:601
+msgid "Размер шрифта заголовка (Desktop)"
+msgstr ""
+
+#: assets/js/blocks.js:2972 src/js/blocks/news.js:622
+msgid "Размер шрифта заголовка (Mobile)"
+msgstr ""
+
+#: assets/js/blocks.js:2993 src/js/blocks/news.js:643
+msgid "Жирность шрифта заголовка"
+msgstr ""
+
+#: assets/js/blocks.js:3000 src/js/blocks/news.js:650
+msgid "Regular"
+msgstr ""
+
+#: assets/js/blocks.js:3008 src/js/blocks/news.js:658
+msgid "Semi Bold"
+msgstr ""
+
+#: assets/js/blocks.js:3012 src/js/blocks/news.js:662
+msgid "Bold"
+msgstr ""
+
+#: assets/js/blocks.js:3023 src/js/blocks/news.js:673
+msgid "Размер шрифта цитаты (Desktop)"
+msgstr ""
+
+#: assets/js/blocks.js:3043 src/js/blocks/news.js:693
+msgid "Размер шрифта цитаты (Mobile)"
+msgstr ""
+
+#: assets/js/blocks.js:3082 src/js/blocks/news.js:732
+msgid "Цвет фона карточки"
+msgstr ""
+
+#: assets/js/blocks.js:3089 src/js/blocks/news.js:739
+msgid "Цвет наложения"
+msgstr ""
+
+#: assets/js/blocks.js:3096 src/js/blocks/news.js:746
+msgid "Цвет наложения при наведении"
+msgstr ""
+
+#: assets/js/blocks.js:3105 src/js/blocks/news.js:755
+msgid "Цвет названия"
+msgstr ""
+
+#: assets/js/blocks.js:3112 src/js/blocks/news.js:762
+msgid "Цвет названия при наведении"
+msgstr ""
+
+#: assets/js/blocks.js:3120 src/js/blocks/news.js:770
+msgid "Цвет цитаты"
+msgstr ""
+
+#: assets/js/blocks.js:3127 src/js/blocks/news.js:777
+msgid "Цвет ссылок"
+msgstr ""
+
+#: assets/js/blocks.js:3134 src/js/blocks/news.js:784
+msgid "Цвет ссылок при наведении"
+msgstr ""
+
+#: assets/js/blocks.js:3141 src/js/blocks/news.js:791
+msgid "Цвет фона ссылок при наведении"
+msgstr ""
+
+#: assets/js/blocks.js:3148 src/js/blocks/news.js:798
+msgid "Date Color"
+msgstr ""
+
+#: assets/js/blocks.js:3175 src/js/blocks/news.js:825
+msgid "Edit news"
+msgstr ""
+
+#: assets/js/blocks.js:3187 assets/js/blocks.js:3718 assets/js/blocks.js:4137
+#: src/js/blocks/news.js:837 src/js/blocks/partners.js:213
+#: src/js/blocks/people.js:254
+msgid "Layout"
+msgstr ""
+
+#: assets/js/blocks.js:3198 src/js/blocks/news.js:848
+msgid "Изображение над текстом"
+msgstr ""
+
+#: assets/js/blocks.js:3202 src/js/blocks/news.js:852
+msgid "Изображение рядом с текстом"
+msgstr ""
+
+#: assets/js/blocks.js:3206 src/js/blocks/news.js:856
+msgid "Tекст поверх изображения"
+msgstr ""
+
+#: assets/js/blocks.js:3220 src/js/blocks/news.js:870
+msgid "Отступ сверху"
+msgstr ""
+
+#: assets/js/blocks.js:3230 src/js/blocks/news.js:880
+msgid "Отступ снизу"
+msgstr ""
+
+#: assets/js/blocks.js:3248 src/js/blocks/news.js:898
+msgid "Текст заголовка"
+msgstr ""
+
+#: assets/js/blocks.js:3256 src/js/blocks/news.js:906
+msgid "Ссылка заголовка"
+msgstr ""
+
+#: assets/js/blocks.js:3265 src/js/blocks/news.js:915
+msgid "Выравнивать по центру"
+msgstr ""
+
+#: assets/js/blocks.js:3285 src/js/blocks/news.js:935
+msgid "Настройки изображения"
+msgstr ""
+
+#: assets/js/blocks.js:3292 src/js/blocks/news.js:942
+msgid "Показывать изображение"
+msgstr ""
+
+#: assets/js/blocks.js:3302 src/js/blocks/news.js:952
+msgid "Ориентация изображения"
+msgstr ""
+
+#: assets/js/blocks.js:3309 src/js/blocks/news.js:959
+msgid "Оригинал"
+msgstr ""
+
+#: assets/js/blocks.js:3313 src/js/blocks/news.js:963
+msgid "Альбомный 16:9"
+msgstr ""
+
+#: assets/js/blocks.js:3317 src/js/blocks/news.js:967
+msgid "Альбомный 4:3"
+msgstr ""
+
+#: assets/js/blocks.js:3321 src/js/blocks/news.js:971
+msgid "Квадтарный"
+msgstr ""
+
+#: assets/js/blocks.js:3325 src/js/blocks/news.js:975
+msgid "Портретный"
+msgstr ""
+
+#: assets/js/blocks.js:3334 src/js/blocks/news.js:984
+msgid "Размер изображения"
+msgstr ""
+
+#: assets/js/blocks.js:3350 src/js/blocks/news.js:1000
+msgid "Округление углов"
+msgstr ""
+
+#: assets/js/blocks.js:3364 src/js/blocks/news.js:1014
+msgid "Метаполя"
+msgstr ""
+
+#: assets/js/blocks.js:3371 src/js/blocks/news.js:1021
+msgid "Показать автора"
+msgstr ""
+
+#: assets/js/blocks.js:3383 src/js/blocks/news.js:1033
+msgid "Показать категорию"
+msgstr ""
+
+#: assets/js/blocks.js:3393 src/js/blocks/news.js:1043
+msgid "Показать название статьи"
+msgstr ""
+
+#: assets/js/blocks.js:3403 src/js/blocks/news.js:1053
+msgid "Показать отрывок"
+msgstr ""
+
+#: assets/js/blocks.js:3415 src/js/blocks/news.js:1065
+msgid "Показать дату"
+msgstr ""
+
+#: assets/js/blocks.js:3436 assets/js/blocks.js:3814 assets/js/blocks.js:4253
+#: assets/js/blocks.js:4756 src/js/blocks/news.js:1086
+#: src/js/blocks/partners.js:309 src/js/blocks/people.js:370
+#: src/js/blocks/projects.js:430
+msgid "Newest to oldest"
+msgstr ""
+
+#: assets/js/blocks.js:3437 assets/js/blocks.js:3815 assets/js/blocks.js:4254
+#: assets/js/blocks.js:4757 src/js/blocks/news.js:1087
+#: src/js/blocks/partners.js:310 src/js/blocks/people.js:371
+#: src/js/blocks/projects.js:431
+msgid "Oldest to newest"
+msgstr ""
+
+#: assets/js/blocks.js:3438 assets/js/blocks.js:3816 assets/js/blocks.js:4255
+#: assets/js/blocks.js:4758 src/js/blocks/news.js:1088
+#: src/js/blocks/partners.js:311 src/js/blocks/people.js:372
+#: src/js/blocks/projects.js:432
+msgid "A → Z"
+msgstr ""
+
+#: assets/js/blocks.js:3439 assets/js/blocks.js:3817 assets/js/blocks.js:4256
+#: assets/js/blocks.js:4759 src/js/blocks/news.js:1089
+#: src/js/blocks/partners.js:312 src/js/blocks/people.js:373
+#: src/js/blocks/projects.js:433
+msgid "Z → A"
+msgstr ""
+
+#: assets/js/blocks.js:3455 src/js/blocks/news.js:1105
+msgid "Number of posts to skip"
+msgstr ""
+
+#: assets/js/blocks.js:3464 assets/js/blocks.js:3842 assets/js/blocks.js:4281
+#: src/js/blocks/news.js:1114 src/js/blocks/partners.js:337
+#: src/js/blocks/people.js:398
+msgid "Select category"
+msgstr ""
+
+#: assets/js/blocks.js:3570 assets/js/blocks.js:3951
+#: src/js/blocks/partners.js:65 src/js/blocks/people.js:68
+msgid "Auto Play"
+msgstr ""
+
+#: assets/js/blocks.js:3579 modules/org/hooks.php:30 modules/org/hooks.php:32
+#: modules/org/tax.php:6 src/js/blocks/partners.js:74
+msgid "Partners"
+msgstr ""
+
+#: assets/js/blocks.js:3582 src/js/blocks/partners.js:77
+msgid "partners"
+msgstr ""
+
+#: assets/js/blocks.js:3582 src/js/blocks/partners.js:77
+msgid "logos"
+msgstr ""
+
+#: assets/js/blocks.js:3583 src/js/blocks/partners.js:78
+msgid "Image tile in four columns."
+msgstr ""
+
+#: assets/js/blocks.js:3592 core/editor/blocks/partners.php:18
+#: src/js/blocks/partners.js:87
+msgid "Our Partners"
+msgstr ""
+
+#: assets/js/blocks.js:3693 src/js/blocks/partners.js:188
+msgid "Edit partners"
+msgstr ""
+
+#: assets/js/blocks.js:3729 assets/js/blocks.js:4148
+#: src/js/blocks/partners.js:224 src/js/blocks/people.js:265
+msgid "Carousel"
+msgstr ""
+
+#: assets/js/blocks.js:3739 src/js/blocks/partners.js:234
+msgid "Partners to show"
+msgstr ""
+
+#: assets/js/blocks.js:3764 assets/js/blocks.js:4183
+#: src/js/blocks/partners.js:259 src/js/blocks/people.js:300
+msgid "Enable link"
+msgstr ""
+
+#: assets/js/blocks.js:3833 src/js/blocks/partners.js:328
+msgid "Number of partners to skip"
+msgstr ""
+
+#: assets/js/blocks.js:3976 src/js/blocks/people.js:93
+msgid "Team"
+msgstr ""
+
+#: assets/js/blocks.js:3979 src/js/blocks/people.js:96
+msgid "people"
+msgstr ""
+
+#: assets/js/blocks.js:3979 src/js/blocks/people.js:96
+msgid "user"
+msgstr ""
+
+#: assets/js/blocks.js:3979 src/js/blocks/people.js:96
+msgid "team"
+msgstr ""
+
+#: assets/js/blocks.js:3979 src/js/blocks/people.js:96
+msgid "profile"
+msgstr ""
+
+#: assets/js/blocks.js:3980 src/js/blocks/people.js:97
+msgid "Tile with photos, names and short descriptions in 3-8 columns."
+msgstr ""
+
+#: assets/js/blocks.js:3989 core/editor/blocks/people.php:18
+#: src/js/blocks/people.js:106
+msgid "Our Team"
+msgstr ""
+
+#: assets/js/blocks.js:4064 src/js/blocks/people.js:181
+msgid "Squared"
+msgstr ""
+
+#: assets/js/blocks.js:4069 src/js/blocks/people.js:186
+msgid "Rounded"
+msgstr ""
+
+#: assets/js/blocks.js:4110 src/js/blocks/people.js:227
+msgid "Edit team"
+msgstr ""
+
+#: assets/js/blocks.js:4158 src/js/blocks/people.js:275
+msgid "People to show"
+msgstr ""
+
+#: assets/js/blocks.js:4223 src/js/blocks/people.js:340
+msgid "Name Color"
+msgstr ""
+
+#: assets/js/blocks.js:4233 src/js/blocks/people.js:350
+msgid "Description Color"
+msgstr ""
+
+#: assets/js/blocks.js:4272 src/js/blocks/people.js:389
+msgid "Number of peoples to skip"
+msgstr ""
+
+#: assets/js/blocks.js:4415 assets/js/blocks.js:4433
+#: core/editor/blocks/projects.php:18 modules/project/hooks.php:15
+#: modules/project/hooks.php:17 modules/starter/plot_config.php:130
+#: modules/starter/plot_config.php:148 src/js/blocks/projects.js:89
+#: src/js/blocks/projects.js:107
+msgid "Projects"
+msgstr ""
+
+#: assets/js/blocks.js:4418 src/js/blocks/projects.js:92
+msgid "Projects tile in three column."
+msgstr ""
+
+#: assets/js/blocks.js:4423 src/js/blocks/projects.js:97
+msgid "projects"
+msgstr ""
+
+#: assets/js/blocks.js:4503 modules/project/hooks.php:93
+#: src/js/blocks/projects.js:177
+msgid "All Tags"
+msgstr ""
+
+#: assets/js/blocks.js:4637 src/js/blocks/projects.js:311
+msgid "Edit projects"
+msgstr ""
+
+#: assets/js/blocks.js:4661 src/js/blocks/projects.js:335
+msgid "Projects to show"
+msgstr ""
+
+#: assets/js/blocks.js:4726 src/js/blocks/projects.js:400
+msgid "Post Title Color"
+msgstr ""
+
+#: assets/js/blocks.js:4775 src/js/blocks/projects.js:449
+msgid "Number of projects to skip"
+msgstr ""
+
+#: assets/js/blocks.js:4784 src/js/blocks/projects.js:458
+msgid "Select tag"
+msgstr ""
+
+#: assets/js/blocks.js:4859 core/editor/blocks/recommend.php:18
+#: src/js/blocks/recommend.js:35
+msgid ""
+"Your mission should be to summarize everything you do. In a short phrase, "
+"put the whole point of your organization and your projects."
+msgstr ""
+
+#: assets/js/blocks.js:4862 src/js/blocks/recommend.js:38
+msgid "Key phrase"
+msgstr ""
+
+#: assets/js/blocks.js:4865 src/js/blocks/recommend.js:41
+msgid "Text on a colored plate."
+msgstr ""
+
+#: assets/js/blocks.js:4867 src/js/blocks/recommend.js:43
+msgid "quote"
+msgstr ""
+
+#: assets/js/blocks.js:4868 src/js/blocks/recommend.js:44
+msgid "recommend"
+msgstr ""
+
+#: assets/js/blocks.js:4869 src/js/blocks/recommend.js:45
+msgid "key"
+msgstr ""
+
+#: assets/js/blocks.js:4870 src/js/blocks/recommend.js:46
+msgid "phrase"
+msgstr ""
+
+#: assets/js/gutenberg.js:51
+msgid "Hide the page title"
+msgstr ""
+
+#: assets/js/gutenberg.js:68 assets/js/gutenberg.js:123
+msgid "Page Options"
+msgstr ""
+
+#: assets/js/gutenberg.js:105
+msgid "Partner Url"
+msgstr ""
+
+#: assets/js/gutenberg.js:158
+msgid ""
+"It is recommended to use image of logo with a transparent background and "
+"with extensions .PNG or .SVG"
+msgstr ""
+
+#: assets/js/gutenberg.js:202
+msgid ""
+"It is recommended to add a square image for a person and a width of at least "
+"920px."
+msgstr ""
+
+#: assets/js/gutenberg.js:224
+msgid "Underline"
+msgstr ""
+
+#: comments.php:30
+msgid "1 comment"
+msgstr ""
+
+#. translators: %s: Comment count number.
+#: comments.php:35
+#, php-format
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:57 core/template-tags.php:53 core/template-tags.php:88
+#: core/template-tags.php:149 core/template-tags.php:150
+#: core/template-tags.php:151 page-events.php:21
+msgid "Page"
+msgstr ""
+
+#: comments.php:59
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:60
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Leave a comment"
+msgstr ""
+
+#: core/admin.php:12
+msgid "Theme settings"
+msgstr ""
+
+#: core/admin.php:18
+msgid "Site title"
+msgstr ""
+
+#: core/admin.php:24 core/customizer/theme-mods/global.php:31
+msgid "Fonts and colors"
+msgstr ""
+
+#: core/admin.php:30
+msgid "Social media links"
+msgstr ""
+
+#: core/admin.php:36
+msgid "Site header"
+msgstr ""
+
+#: core/admin.php:42
+msgid "Site footer"
+msgstr ""
+
+#: core/admin.php:48 core/admin.php:122
+msgid "Theme setup wizard"
+msgstr ""
+
+#: core/admin.php:54
+msgid "Plugins"
+msgstr ""
+
+#: core/admin.php:60
+msgid "SEO"
+msgstr ""
+
+#: core/admin.php:66 core/editor/blocks/leyka-cards.php:18
+#: core/shortcodes.php:63 modules/donations/widgets.php:9
+msgid "Donations"
+msgstr ""
+
+#: core/admin.php:72 core/customizer/theme-mods/global.php:184
+msgid "Other"
+msgstr ""
+
+#: core/admin.php:78 core/customizer/theme-mods/global.php:369
+msgid "Documentation"
+msgstr ""
+
+#: core/admin.php:84
+msgid "Support Telegram channel"
+msgstr ""
+
+#: core/admin.php:90
+msgid "Email to the support"
+msgstr ""
+
+#: core/admin.php:96
+msgid "Report of an error"
+msgstr ""
+
+#: core/admin.php:102 core/admin.php:140
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: core/admin.php:116
+msgid "Theme Settings"
+msgstr ""
+
+#: core/admin.php:128
+msgid "User documentation"
+msgstr ""
+
+#: core/admin.php:134
+msgid "Email to the tech support"
+msgstr ""
+
+#: core/admin.php:172
+msgid "Kandinsky settings"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: core/admin.php:172 core/admin.php:214 core/admin.php:578
+#: core/editor/category.php:20 core/editor/pattern.php:20
+#: core/theme-update/theme-update-checker.php:348 functions.php:233
+msgid "Kandinsky"
+msgstr ""
+
+#: core/admin.php:175 core/admin.php:176
+msgid "Kandinsky setup wizard"
+msgstr ""
+
+#: core/admin.php:257
+msgid "Dismiss"
+msgstr ""
+
+#: core/admin.php:259
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing Kandinsky! To fully take advantage of the "
+"best our theme can offer please make sure you configured %snecessary theme "
+"settings%s."
+msgstr ""
+
+#: core/admin.php:263
+msgid "Open the theme setup wizard"
+msgstr ""
+
+#: core/admin.php:266
+msgid "Open theme settings"
+msgstr ""
+
+#: core/admin.php:298
+msgid "Yoast SEO"
+msgstr ""
+
+#: core/admin.php:302
+msgid "A great tool to boost your website SEO positions."
+msgstr ""
+
+#: core/admin.php:305
+msgid "Cyr-To-Lat"
+msgstr ""
+
+#: core/admin.php:309
+msgid ""
+"Small helper to seamlessly convert cyrillic pages slugs into latin ones."
+msgstr ""
+
+#: core/admin.php:312
+msgid "Disable Comments"
+msgstr ""
+
+#: core/admin.php:316
+msgid ""
+"Comments on the website may be harmful, so this small plugin turns them off."
+msgstr ""
+
+#: core/admin.php:323
+msgid ""
+"Events Manager is a full-featured event registration plugin for WordPress "
+"based on the principles of flexibility, reliability and powerful features!"
+msgstr ""
+
+#: core/admin.php:326
+msgid "Kirki Customizer Framework"
+msgstr ""
+
+#: core/admin.php:331
+msgid "The Ultimate WordPress Customizer Framework."
+msgstr ""
+
+#: core/admin.php:334
+msgid "Leyka"
+msgstr ""
+
+#: core/admin.php:338
+msgid "This plugin will add means for donations collection to your website."
+msgstr ""
+
+#: core/admin.php:362
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/admin.php:363
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/admin.php:365
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/admin.php:367
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/admin.php:368
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/admin.php:370
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:374
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:378
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:382
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:386
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:390
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:393
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:394
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:395
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin.php:396
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/admin.php:397
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/admin.php:398
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/admin.php:400
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/admin.php:403
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: core/admin.php:406
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/admin.php:407
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/admin.php:409
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/admin.php:411
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/admin.php:428
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: core/admin.php:432
+msgid "Action failed."
+msgstr ""
+
+#: core/admin.php:445
+msgid "Order"
+msgstr ""
+
+#: core/admin.php:448
+msgid "Start"
+msgstr ""
+
+#: core/admin.php:451
+msgid "Thumb."
+msgstr ""
+
+#: core/admin.php:454
+msgid "Created"
+msgstr ""
+
+#: core/admin.php:561
+msgid "Kandinsky — useful links"
+msgstr ""
+
+#: core/admin.php:582
+msgid "Do you want to know all the features of the theme?"
+msgstr ""
+
+#: core/admin.php:583
+msgid "Find information on"
+msgstr ""
+
+#: core/admin.php:584
+msgid "official website"
+msgstr ""
+
+#: core/admin.php:629
+#, php-format
+msgid "A quick guide to working with the site - %s."
+msgstr ""
+
+#: core/assets.php:72 core/nav-menu.php:18 core/nav-menu.php:29
+msgid "Expand child menu"
+msgstr ""
+
+#: core/assets.php:73
+msgid "Collapse child menu"
+msgstr ""
+
+#: core/assets.php:74
+msgid "Off-Canvas is open"
+msgstr ""
+
+#: core/assets.php:75
+msgid "Off-Canvas is closed"
+msgstr ""
+
+#: core/class-import.php:116 core/class-import.php:151
+#, php-format
+msgid "File wasn't uploaded: %s"
+msgstr ""
+
+#: core/class-import.php:125
+#, php-format
+msgid "%s - temporary download file doesn't exist"
+msgstr ""
+
+#: core/class-import.php:129
+#, php-format
+msgid "%s - a downloaded file already exists and can't be deleted"
+msgstr ""
+
+#: core/class-import.php:133
+#, php-format
+msgid "%s - a downloaded file isn't writable and can't be made so"
+msgstr ""
+
+#: core/class-import.php:137
+#, php-format
+msgid "Can't rename downloaded file: from %s to %s"
+msgstr ""
+
+#: core/customizer/customizer-default.php:27
+msgid ""
+"In order to make Kandinsky work full speed, you will need few plugins. "
+"WordPress will install or update the following plugins:"
+msgstr ""
+
+#: core/customizer/customizer-default.php:30
+msgid "Plugin that allows web-font customization."
+msgstr ""
+
+#: core/customizer/customizer-default.php:35
+msgid "Install"
+msgstr ""
+
+#: core/customizer/customizer-default.php:38
+msgid "No, I’ll do it some other time"
+msgstr ""
+
+#: core/customizer/kirki.php:35 core/customizer/kirki.php:54
+msgid "None"
+msgstr ""
+
+#: core/customizer/kirki.php:70
+msgid "Select a category"
+msgstr ""
+
+#: core/customizer/kirki.php:122
+msgid ""
+"If only an image is used as a logo, then we recommend uploading an image "
+"with the dimensions of 315 x 66 px, or 66 x 66 px for use along with the "
+"text."
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:13
+msgid "Archive Settings"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:21
+msgid "Posts archive title"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:23 core/template-tags.php:90
+msgid "Blog"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:29
+msgid "Posts Page Bottom Blocks"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:45
+msgid "Projects archive title"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:47 core/template-tags.php:98
+#: core/template-tags.php:166
+msgid "Our projects"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:53
+msgid "Projects Page Bottom Blocks"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:62
+msgid "Completed projects"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:70
+msgid "What projects do we consider completed?"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:86
+msgid "Highlight display of completed projects"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:106
+msgid "Opacity"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:136
+msgid "Color"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:171
+msgid "Active campaigns archive title"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:173
+#: core/template-tags.php:110 single-leyka_campaign.php:31
+#: single-leyka_campaign.php:50
+msgid "They need help"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:179
+msgid "Completed campaigns archive title"
+msgstr ""
+
+#: core/customizer/theme-mods/archive-settings.php:181
+#: core/template-tags.php:105 single-leyka_campaign.php:27
+#: single-leyka_campaign.php:53
+msgid "They alredy got help"
+msgstr ""
+
+#: core/customizer/theme-mods/campaign-settings.php:13
+msgctxt "Customizer"
+msgid "Campaign Settings"
+msgstr ""
+
+#: core/customizer/theme-mods/campaign-settings.php:21
+msgid "Show link above title"
+msgstr ""
+
+#: core/customizer/theme-mods/campaign-settings.php:29
+msgid "Show links after content"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:12
+msgid "Footer"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:28
+msgid "Go to the menu &quot;In the footer&quot;"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:30
+msgid "Go to Menu"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:39
+#: core/customizer/theme-mods/footer.php:47
+msgid "Logo"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:72
+#: core/customizer/theme-mods/global.php:209
+#: core/customizer/theme-mods/header.php:76 inc/events/events-functions.php:297
+msgid "Name"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:88
+#: core/customizer/theme-mods/header.php:85
+msgid "Description"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:104
+#: core/customizer/theme-mods/header.php:116
+msgid "Use Default Font"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:155
+#: core/customizer/theme-mods/header.php:155
+msgid "Logo Color"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:177
+#: core/customizer/theme-mods/header.php:170
+msgid "Logo Description Color"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:201
+#: core/customizer/theme-mods/footer.php:210
+msgid "Footer - Columns"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:219 footer.php:46
+msgid "About Us"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:241
+msgid "Menu our work"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:263
+msgid "Menu news"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:285 footer.php:95
+msgid "Security policy"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:307
+msgid "Copyright, license, etc."
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:314
+msgid "License information"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:319 footer.php:10
+#, php-format
+msgid "All materials of the site are avaliabe under license %s"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:319 footer.php:10
+msgid "Creative Commons СС-BY-SA 3.0"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:340
+msgid ""
+"The creators of the constructor will be grateful if you leave the "
+"information about Kandinsky included."
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:353
+msgid "Display the Kandinsky logo"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:368
+msgid "Footer Background"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:383
+msgid "Footer Headings Color"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:398
+msgid "Footer Text Color"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:413
+msgid "Footer Links Color"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:428
+msgid "Footer Links Color Hover"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:453
+#: core/customizer/theme-mods/global.php:163
+#: core/customizer/theme-mods/global.php:190
+#: core/customizer/theme-mods/header.php:357
+#: core/customizer/theme-mods/header.php:529
+msgid "Social networks"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:454
+#: core/customizer/theme-mods/header.php:358
+msgid "Manage social networks"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:462
+msgid "Footer Social Color"
+msgstr ""
+
+#: core/customizer/theme-mods/footer.php:484
+msgid "Footer Social Color Hover"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:12
+msgid "Global"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:21
+msgid "Site Properties"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:40
+msgid "Main text"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:67
+msgid "Headings"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:114
+msgid "Page Background color"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:115
+msgid "Recommended - white"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:130
+msgid "Buttons and links color"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:131
+msgid "Also used in other decorative elements"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:146
+msgid "Buttons and links color hover"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:147
+msgid "Also used in other active elements"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:193
+msgid "Add social network"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:196
+msgid "Social network name"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:203
+msgid "Select network"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:214
+msgid "URL"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:218
+msgid "Icon"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:219
+msgid ""
+"The recommended icon size is 40x40 pixels, and with a transparent background."
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:233
+msgid "Share Buttons"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:242
+msgid "Mobile only"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:268
+msgid "Location"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:272
+msgid "Left Side"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:273
+msgid "After Content"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:281
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:290
+msgid "Scroll To Top Button"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:299
+msgid "Analytics"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:308
+msgid ""
+"Here you can insert the code for user analytics systems, Google Analytics or "
+"Yandex.Metrica. Below are 3 areas of the site where you can paste the code, "
+"depending on the requirements of the systems being installed. Just copy it "
+"here."
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:315
+msgid "Before </head>"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:318
+#: core/customizer/theme-mods/global.php:330
+#: core/customizer/theme-mods/global.php:342
+msgid "Code can be copied here."
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:327
+msgid "At the beginning of <body>"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:339
+msgid "Before </body>"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:352
+msgid "Important Links"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:361
+msgid "Theme Info"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:365
+msgid "Support"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:373
+msgid "Changelog"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:396
+msgid "Yoast SEO Breadcrumbs"
+msgstr ""
+
+#: core/customizer/theme-mods/global.php:406
+msgid "Additional CSS"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:12
+msgid "Header"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:20
+msgid "Select header template"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:34
+msgid "Header Height"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:50
+msgid "Header Background"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:94
+msgid "Custom Text"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:110
+msgid "Font For Logo"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:200
+#: core/customizer/theme-mods/header.php:474
+#: core/customizer/theme-mods/menu.php:12
+msgid "Menu"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:201
+msgid "Go to the menu &quot;In the header&quot;"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:216
+msgid "Menu Font Size"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:236
+msgid "Menu Links Color"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:263
+msgid "Menu Links Color Hover"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:297
+msgid "Email"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:312
+#: inc/events/events-functions.php:302
+msgid "Phone"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:327
+msgid "Address"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:342
+#: core/customizer/theme-mods/header.php:482 search.php:11 searchform.php:11
+#: searchform.php:13
+msgid "Search"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:374
+#: core/customizer/theme-mods/header.php:376
+#: core/customizer/theme-mods/header.php:498
+#: core/customizer/theme-mods/header.php:500
+msgid "Button Text"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:390
+#: core/customizer/theme-mods/header.php:514
+msgid "Button Link"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:405
+msgid "Additional Button"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:420
+msgid "Additional Button Text"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:440
+msgid "Additional Button Link"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:460
+msgid "Off-Canvas"
+msgstr ""
+
+#: core/customizer/theme-mods/header.php:466
+msgid "Display Off-Canvas Toggle Button"
+msgstr ""
+
+#: core/customizer/theme-mods/homepage.php:13
+msgid "Main page"
+msgstr ""
+
+#: core/customizer/theme-mods/pages.php:12
+msgid "Pages"
+msgstr ""
+
+#: core/customizer/theme-mods/post-settings.php:13
+msgid "Post Settings"
+msgstr ""
+
+#: core/customizer/theme-mods/post-settings.php:21
+#: core/customizer/theme-mods/project-settings.php:21
+msgid "Social Shares"
+msgstr ""
+
+#: core/customizer/theme-mods/post-settings.php:29
+#: core/customizer/theme-mods/project-settings.php:29
+#: modules/project/hooks.php:101
+msgid "Tags"
+msgstr ""
+
+#: core/customizer/theme-mods/post-settings.php:37
+msgid "Related Posts"
+msgstr ""
+
+#: core/customizer/theme-mods/post-settings.php:45
+msgid "Comments"
+msgstr ""
+
+#: core/customizer/theme-mods/post-settings.php:53
+msgid "Related Posts Title"
+msgstr ""
+
+#: core/customizer/theme-mods/post-settings.php:55 core/template-tags.php:742
+msgid "Related posts"
+msgstr ""
+
+#: core/customizer/theme-mods/post-settings.php:68
+#: core/customizer/theme-mods/project-settings.php:60
+msgid "Bottom Blocks"
+msgstr ""
+
+#: core/customizer/theme-mods/project-settings.php:13
+msgid "Project Settings"
+msgstr ""
+
+#: core/customizer/theme-mods/project-settings.php:37
+msgid "Related Projects"
+msgstr ""
+
+#: core/customizer/theme-mods/project-settings.php:45
+msgid "Related Projects Title"
+msgstr ""
+
+#: core/customizer/theme-mods/project-settings.php:47
+#: core/template-tags.php:755
+msgid "Related projects"
+msgstr ""
+
+#: core/editor/assets.php:54
+msgid "Select campaign"
+msgstr ""
+
+#: core/editor/blocks/events.php:312 page-events.php:143
+msgid "No events"
+msgstr ""
+
+#: core/editor/blocks/hero.php:26
+msgid "Текст кнопки"
+msgstr ""
+
+#: core/editor/blocks/hint.php:18
+msgid "Text."
+msgstr ""
+
+#: core/editor/blocks/info.php:38
+msgid "Кто мы?"
+msgstr ""
+
+#: core/editor/blocks/info.php:42
+msgid "Что делаем?"
+msgstr ""
+
+#: core/editor/blocks/info.php:46
+msgid "Для кого/Как помочь?"
+msgstr ""
+
+#: core/editor/blocks/info.php:50
+msgid ""
+"Кратко опишите основное направление деятельности организации/проекта/"
+"инициативы. На что нацелена деятельность."
+msgstr ""
+
+#: core/editor/blocks/info.php:54
+msgid ""
+"Обозначьте здесь практические решения. Чем вы полезны и какие действия "
+"предпринимаются для решения проблемы."
+msgstr ""
+
+#: core/editor/blocks/info.php:58
+msgid ""
+"Добавьте сюда информацию о том, как получить помощь тем, кто в ней нуждается "
+"или расскажите как помочь проекту."
+msgstr ""
+
+#: core/editor/blocks/info.php:62
+msgid "Узнайте о нашей работе"
+msgstr ""
+
+#: core/editor/blocks/info.php:66
+msgid "Посмотреть проекты"
+msgstr ""
+
+#: core/editor/blocks/info.php:70
+msgid "Вам нужна помощь/Как помочь"
+msgstr ""
+
+#: core/editor/blocks/leyka-cards.php:86
+msgid "Donate"
+msgstr ""
+
+#: core/editor/blocks/leyka-cards.php:334 modules/donations/donations.php:120
+msgid ""
+"Thank you for you support. This campaign is finished and help is going to be "
+"provided. Please follow the updates."
+msgstr ""
+
+#: core/editor/blocks/leyka-cards.php:363 modules/donations/donations.php:140
+#, php-format
+msgid "We need to raise: %s %s"
+msgstr ""
+
+#: core/editor/functions.php:112
+msgid "White"
+msgstr ""
+
+#: core/editor/functions.php:117
+msgid "Black"
+msgstr ""
+
+#: core/editor/functions.php:122
+msgid "Light Grey"
+msgstr ""
+
+#: core/editor/pattern.php:57 core/editor/pattern.php:60
+msgid "Главный материал (Вёрстка)"
+msgstr ""
+
+#: core/editor/pattern.php:68 core/editor/pattern.php:71
+msgid "Два важных материала"
+msgstr ""
+
+#: core/editor/pattern.php:79 core/editor/pattern.php:82
+msgid "Главный материал (Холод)"
+msgstr ""
+
+#: core/editor/pattern.php:90 core/editor/pattern.php:93
+msgid "Четыре истории (Черта)"
+msgstr ""
+
+#: core/editor/pattern.php:101 core/editor/pattern.php:104
+msgid "Новостной блок (Холод)"
+msgstr ""
+
+#: core/editor/pattern.php:112 core/editor/pattern.php:115
+msgid "Новостной блок (Вёрстка)"
+msgstr ""
+
+#: core/editor/pattern.php:123 core/editor/pattern.php:126
+msgid "Четыре материала с подложками (Черта)"
+msgstr ""
+
+#: core/editor/setup.php:45
+msgid "Blocks"
+msgstr ""
+
+#: core/extras.php:51
+msgid "More"
+msgstr ""
+
+#: core/extras.php:192 modules/starter/import_remote_content.php:405
+#, php-format
+msgid "Old import files cleanup FAILED: %s."
+msgstr ""
+
+#: core/extras.php:262
+msgid "Recommended plugins to install"
+msgstr ""
+
+#: core/media.php:29
+msgid "Landscape thumbnail"
+msgstr ""
+
+#: core/media.php:30
+msgid "Post thumbnail"
+msgstr ""
+
+#: core/media.php:31
+msgid "Fixed for embed"
+msgstr ""
+
+#: core/person.php:9
+msgid "People's profiles"
+msgstr ""
+
+#: core/person.php:10
+msgid "Profile"
+msgstr ""
+
+#: core/person.php:11 core/person.php:12
+msgid "People"
+msgstr ""
+
+#: core/person.php:13 modules/org/hooks.php:34 modules/project/hooks.php:19
+msgid "Add new"
+msgstr ""
+
+#: core/person.php:14
+msgid "Add new profile"
+msgstr ""
+
+#: core/person.php:15
+msgid "New profile"
+msgstr ""
+
+#: core/person.php:16
+msgid "Edit profile"
+msgstr ""
+
+#: core/person.php:17
+msgid "Preview profile"
+msgstr ""
+
+#: core/person.php:18
+msgid "All profiles"
+msgstr ""
+
+#: core/person.php:19
+msgid "Search profile"
+msgstr ""
+
+#: core/person.php:20
+msgid "Person photo"
+msgstr ""
+
+#: core/person.php:21
+msgid "Set person photo"
+msgstr ""
+
+#: core/person.php:22
+msgid "Remove person photo"
+msgstr ""
+
+#: core/person.php:23
+msgid "Use as person photo"
+msgstr ""
+
+#: core/person.php:44
+msgid "Persons categories"
+msgstr ""
+
+#: core/person.php:45 modules/org/hooks.php:9
+msgid "Category"
+msgstr ""
+
+#: core/person.php:46 core/template-tags.php:26 modules/org/hooks.php:10
+#: modules/project/hooks.php:67
+msgid "Categories"
+msgstr ""
+
+#: core/person.php:47
+msgid "All categories"
+msgstr ""
+
+#: core/person.php:48 modules/org/hooks.php:12
+msgid "Edit category"
+msgstr ""
+
+#: core/person.php:49
+msgid "Preview category"
+msgstr ""
+
+#: core/person.php:50 modules/org/hooks.php:14
+msgid "Update category"
+msgstr ""
+
+#: core/person.php:51 modules/org/hooks.php:15
+msgid "Add new category"
+msgstr ""
+
+#: core/person.php:52 modules/org/hooks.php:16
+msgid "New category name"
+msgstr ""
+
+#: core/plugins.php:15
+msgctxt "Yoast SEO"
+msgid "Home"
+msgstr ""
+
+#: core/template-tags.php:93
+msgid "Donations history"
+msgstr ""
+
+#: core/template-tags.php:115
+msgid "Search results"
+msgstr ""
+
+#: core/template-tags.php:118
+msgid "404: Page not found"
+msgstr ""
+
+#: core/template-tags.php:148
+msgid "Posts navigation"
+msgstr ""
+
+#: core/template-tags.php:150
+msgid "Previous"
+msgstr ""
+
+#: core/template-tags.php:151
+msgid "Next"
+msgstr ""
+
+#: core/template-tags.php:165
+msgid "More projects"
+msgstr ""
+
+#: core/template-tags.php:168
+msgid "More news"
+msgstr ""
+
+#: core/template-tags.php:169
+msgid "Latest news"
+msgstr ""
+
+#: core/template-tags.php:481
+msgid "Open search"
+msgstr ""
+
+#: core/template-tags.php:502
+msgid "Close search"
+msgstr ""
+
+#: core/template-tags.php:517
+msgid "Open Off-Canvas"
+msgstr ""
+
+#: core/template-tags.php:530
+msgid "Close Off-Canvas"
+msgstr ""
+
+#: core/template-tags.php:641 functions.php:78 template-parts/offcanvas.php:29
+msgid "Primary menu"
+msgstr ""
+
+#: core/template-tags.php:922
+msgid "назад"
+msgstr ""
+
+#: core/theme-update/theme-update-checker.php:354
+#, php-format
+msgid "There is a new version of theme <strong>%s</strong> available."
+msgstr ""
+
+#: core/theme-update/theme-update-checker.php:355
+#, php-format
+msgid "Update to version %s"
+msgstr ""
+
+#: footer.php:58
+msgid "Our Work"
+msgstr ""
+
+#: footer.php:123
+msgid "Powered by Kandinsky"
+msgstr ""
+
+#: footer.php:126
+msgid "Kandinsky logo"
+msgstr ""
+
+#. Author of the plugin/theme
+#: functions.php:234
+msgid "Teplitsa"
+msgstr ""
+
+#. Description of the plugin/theme
+#: functions.php:235
+msgid "The beautiful design and useful features for nonprofit website"
+msgstr ""
+
+#: inc/events/events-booking-fields.php:12
+msgid "Comment"
+msgstr ""
+
+#: inc/events/events-functions.php:113
+#, php-format
+msgid "%s before registration closes"
+msgstr ""
+
+#: inc/events/events-functions.php:115
+msgid "Registration is closed"
+msgstr ""
+
+#: inc/events/events-functions.php:129
+msgid "online"
+msgstr ""
+
+#: inc/events/events-functions.php:258
+msgid "Custom Settings"
+msgstr ""
+
+#: inc/events/events-functions.php:271
+msgid "Additional settings for the single event page"
+msgstr ""
+
+#: inc/events/events-functions.php:277
+msgid "Schedule heading"
+msgstr ""
+
+#: inc/events/events-functions.php:278
+msgid "Question heading"
+msgstr ""
+
+#: inc/events/events-functions.php:279
+msgid "Question content"
+msgstr ""
+
+#: inc/events/events-functions.php:280
+msgid "Related heading"
+msgstr ""
+
+#: inc/events/events-functions.php:307
+msgid "E-mail"
+msgstr ""
+
+#: inc/events/events-functions.php:321
+msgid "CTA button text"
+msgstr ""
+
+#: inc/events/events-functions.php:321 inc/events/events-options.php:21
+#: single-event.php:63
+msgid "Book Now"
+msgstr ""
+
+#: inc/events/events-functions.php:341
+msgid "Custom Fields"
+msgstr ""
+
+#: inc/events/events-functions.php:381
+msgid "Add new field"
+msgstr ""
+
+#: inc/events/events-functions.php:450
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: inc/events/events-functions.php:455
+msgid "<strong>ERROR</strong>: Please enter your phone number."
+msgstr ""
+
+#: inc/events/events-functions.php:469
+msgid "<strong>ERROR</strong>: Please fill in the field"
+msgstr ""
+
+#: inc/events/events-login-form.php:9
+#, php-format
+msgid "%sLog in%s if you already have an account with us."
+msgstr ""
+
+#: inc/events/events-login-form.php:14
+msgid "Username"
+msgstr ""
+
+#: inc/events/events-login-form.php:15
+msgid "Password"
+msgstr ""
+
+#: inc/events/events-metabox.php:33
+msgid "Additional settings"
+msgstr ""
+
+#: inc/events/events-metabox.php:54
+msgid "Seat reservation"
+msgstr ""
+
+#: inc/events/events-metabox.php:61
+msgid "Sticky on top"
+msgstr ""
+
+#: inc/events/events-metabox.php:63
+msgid "Sticky"
+msgstr ""
+
+#: inc/events/events-metabox.php:68
+msgid "Booking form header"
+msgstr ""
+
+#: inc/events/events-metabox.php:75
+msgid "Booking form description"
+msgstr ""
+
+#: inc/events/events-metabox.php:82
+msgid "Speakers"
+msgstr ""
+
+#: inc/events/events-metabox.php:99
+msgid "Manage speakers."
+msgstr ""
+
+#: inc/events/events-metabox.php:102
+msgid "There are no speakers on the site."
+msgstr ""
+
+#: inc/events/events-metabox.php:103
+msgid "Add a new speaker."
+msgstr ""
+
+#: inc/events/events-metabox.php:117 inc/events/events-options.php:51
+#: inc/events/events-tags.php:162
+msgid "Schedule"
+msgstr ""
+
+#: inc/events/events-metabox.php:131
+msgid "Remove schedule"
+msgstr ""
+
+#: inc/events/events-metabox.php:166
+msgid "Add schedule"
+msgstr ""
+
+#: inc/events/events-options.php:52 inc/events/events-tags.php:213
+msgid "Still have questions?"
+msgstr ""
+
+#: inc/events/events-options.php:53
+msgid "Write to us at help@te-st.org"
+msgstr ""
+
+#: inc/events/events-options.php:54
+#: template-parts/entry/entry-event-related.php:20
+msgid "More events"
+msgstr ""
+
+#: inc/events/events-tags.php:125
+msgid "Msk"
+msgstr ""
+
+#: modules/donations/donations.php:49
+msgid "Please, specify your donation amount"
+msgstr ""
+
+#: modules/donations/donations.php:56
+msgid "or"
+msgstr ""
+
+#: modules/donations/donations.php:57
+msgid "Specify the amount of your donation"
+msgstr ""
+
+#: modules/donations/donations.php:145
+msgid "Help now"
+msgstr ""
+
+#: modules/donations/donations.php:258
+msgid "Charity"
+msgstr ""
+
+#: modules/donations/widgets.php:10
+msgid "Donations short list"
+msgstr ""
+
+#: modules/donations/widgets.php:130
+msgid "Qty:"
+msgstr ""
+
+#: modules/donations/widgets.php:135
+msgid "Exclude campaigns:"
+msgstr ""
+
+#: modules/org/hooks.php:8
+msgid "Partner Categories"
+msgstr ""
+
+#: modules/org/hooks.php:13 modules/org/hooks.php:38
+msgid "Preview"
+msgstr ""
+
+#: modules/org/hooks.php:31
+msgid "Partner"
+msgstr ""
+
+#: modules/org/hooks.php:33 modules/org/hooks.php:35
+msgid "Add partner"
+msgstr ""
+
+#: modules/org/hooks.php:36
+msgid "New partner"
+msgstr ""
+
+#: modules/org/hooks.php:37
+msgid "Edit partner"
+msgstr ""
+
+#: modules/org/hooks.php:39
+msgid "All partners"
+msgstr ""
+
+#: modules/org/hooks.php:40
+msgid "Partner logo"
+msgstr ""
+
+#: modules/org/hooks.php:41
+msgid "Set partner logo"
+msgstr ""
+
+#: modules/org/hooks.php:42
+msgid "Remove partner logo"
+msgstr ""
+
+#: modules/org/hooks.php:43
+msgid "Use as partner logo"
+msgstr ""
+
+#: modules/project/hooks.php:16
+msgid "Project"
+msgstr ""
+
+#: modules/project/hooks.php:18 modules/project/hooks.php:20
+msgid "Add project"
+msgstr ""
+
+#: modules/project/hooks.php:21
+msgid "New project"
+msgstr ""
+
+#: modules/project/hooks.php:22
+msgid "Edit project"
+msgstr ""
+
+#: modules/project/hooks.php:23
+msgid "Preview project"
+msgstr ""
+
+#: modules/project/hooks.php:24
+msgid "All projects"
+msgstr ""
+
+#: modules/project/hooks.php:25
+msgid "Search projects"
+msgstr ""
+
+#: modules/project/hooks.php:60 modules/project/hooks.php:62
+msgid "Project Categories"
+msgstr ""
+
+#: modules/project/hooks.php:61
+msgid "Project Category"
+msgstr ""
+
+#: modules/project/hooks.php:63
+msgid "Edit Category"
+msgstr ""
+
+#: modules/project/hooks.php:64
+msgid "Update Category"
+msgstr ""
+
+#: modules/project/hooks.php:65
+msgid "Add New Category"
+msgstr ""
+
+#: modules/project/hooks.php:66
+msgid "New Category"
+msgstr ""
+
+#: modules/project/hooks.php:89
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr ""
+
+#: modules/project/hooks.php:90
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: modules/project/hooks.php:91
+msgid "Search Tags"
+msgstr ""
+
+#: modules/project/hooks.php:92
+msgid "Popular Tags"
+msgstr ""
+
+#: modules/project/hooks.php:94
+msgid "Edit Tag"
+msgstr ""
+
+#: modules/project/hooks.php:95
+msgid "Update Tag"
+msgstr ""
+
+#: modules/project/hooks.php:96
+msgid "Add New Tag"
+msgstr ""
+
+#: modules/project/hooks.php:97
+msgid "New Tag Name"
+msgstr ""
+
+#: modules/project/hooks.php:98
+msgid "Separate tags with commas"
+msgstr ""
+
+#: modules/project/hooks.php:99
+msgid "Add or remove tags"
+msgstr ""
+
+#: modules/project/hooks.php:100
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: modules/social.php:5 modules/social.php:106
+msgid "VKontakte"
+msgstr ""
+
+#: modules/social.php:6 modules/social.php:122
+msgid "Odnoklassniki"
+msgstr ""
+
+#: modules/social.php:7 modules/social.php:130
+msgid "Facebook"
+msgstr ""
+
+#: modules/social.php:8
+msgid "Instagram"
+msgstr ""
+
+#: modules/social.php:9 modules/social.php:114
+msgid "Twitter"
+msgstr ""
+
+#: modules/social.php:10
+msgid "Telegram"
+msgstr ""
+
+#: modules/social.php:11
+msgid "YouTube"
+msgstr ""
+
+#: modules/social.php:12
+msgid "TikTok"
+msgstr ""
+
+#: modules/social.php:104
+msgid "Share on VK"
+msgstr ""
+
+#: modules/social.php:112
+msgid "Share on Twitter"
+msgstr ""
+
+#: modules/social.php:120
+msgid "Share on OK"
+msgstr ""
+
+#: modules/social.php:128
+msgid "Share on Facebook"
+msgstr ""
+
+#: modules/social.php:136
+msgid "Share on Telegram"
+msgstr ""
+
+#: modules/social.php:144
+msgid "Share on Viber"
+msgstr ""
+
+#: modules/social.php:152
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: modules/starter/import_remote_content.php:394
+msgid "No zip file"
+msgstr ""
+
+#: modules/starter/import_remote_content.php:398
+#, php-format
+msgid "Zip file not found: %s"
+msgstr ""
+
+#: modules/starter/import_remote_content.php:422
+#, php-format
+msgid "Unzip FAILED: %s to %s. Error: %s"
+msgstr ""
+
+#: modules/starter/import_remote_content.php:435
+msgid "No git content dir!"
+msgstr ""
+
+#: modules/starter/import_remote_content.php:439
+#, php-format
+msgid "Unzipped dir not found: %s"
+msgstr ""
+
+#: modules/starter/import_remote_content.php:445
+#, php-format
+msgid "Plot dir not found: %s"
+msgstr ""
+
+#: modules/starter/plot_config.php:124
+#: modules/starter/plot_data_builder.php:1056
+#: modules/starter/plot_data_builder.php:1058
+msgid "Primary Menu"
+msgstr ""
+
+#: modules/starter/plot_config.php:134
+msgid "Kandinsky our work footer menu"
+msgstr ""
+
+#: modules/starter/plot_config.php:144
+msgid "Kandinsky news footer menu"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:79
+msgid ""
+"165150, Arkhangelsk region, Velsky district, Velsk, st. Rogozin, 48, office. "
+"12"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:83
+msgid "Kotov Aristarkh Evgraphovich"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:84
+msgid "Sobakin Yevlampy Mstislavovich"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:85
+msgid "Director"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:93
+msgid "MEOW Zoobank"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:107
+msgid "I accept"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:108
+msgid "Terms of Service"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:256
+#: modules/starter/plot_data_builder.php:264
+#: modules/starter/plot_data_builder.php:268
+#: modules/starter/plot_data_builder.php:272
+#: modules/starter/plot_data_builder.php:276
+#: modules/starter/plot_data_builder.php:280
+msgid "Martynov Semyon Semyonovich"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:257
+#: modules/starter/plot_data_builder.php:265
+#: modules/starter/plot_data_builder.php:269
+#: modules/starter/plot_data_builder.php:273
+#: modules/starter/plot_data_builder.php:277
+msgid "Korovin Ostap Rudolfovich"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:258
+#: modules/starter/plot_data_builder.php:266
+#: modules/starter/plot_data_builder.php:270
+#: modules/starter/plot_data_builder.php:274
+#: modules/starter/plot_data_builder.php:278
+msgid "Bykov Ivan Ivanovich"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:259
+#: modules/starter/plot_data_builder.php:267
+#: modules/starter/plot_data_builder.php:271
+#: modules/starter/plot_data_builder.php:275
+#: modules/starter/plot_data_builder.php:279
+msgid "Moose Veniamin Robertovich"
+msgstr ""
+
+#: modules/starter/plot_data_builder.php:552
+msgid "Home page"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "%s result"
+msgid_plural "%s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:55
+msgid "Nothing found under your request"
+msgstr ""
+
+#: searchform.php:13
+msgid "Enter text to search ..."
+msgstr ""
+
+#: searchform.php:15
+msgid "Start search"
+msgstr ""
+
+#: template-parts/offcanvas.php:25
+msgid "Main menu"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/Teplitsa/Kandinsky"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://te-st.org"
+msgstr ""
