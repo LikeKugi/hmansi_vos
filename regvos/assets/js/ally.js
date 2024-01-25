@@ -247,6 +247,7 @@ function removeSpeechListeners() {
 
 function textToSpeech() {
     if (!ref.current) return;
+    speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(ref.current);
 
