@@ -120,7 +120,7 @@
 /* Embeds */
 .wp-block-embed figcaption {
 	color: var(--knd-page-text-color-light);
-	font-size: 14px;
+	font-size: 0.813rem;
 	font-family: var(--knd-font-family-base);
 	font-weight: 400;
 	line-height: 1.55;
@@ -177,7 +177,7 @@
 	width: 100%;
 	min-width: 240px;
 	border-collapse: collapse;
-	font-size: 14px;
+	font-size: 0.813rem;
 }
 
 .wp-block-table thead,
@@ -365,7 +365,7 @@
 	display: inline-block;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 17px;
+	font-size: 0.9444rem;
 	padding: 12px 20px;
 	color: #fff;
 	background: var(--knd-color-main);
@@ -397,21 +397,21 @@
 
 .knd-button-xs {
 	padding: 8px 10px;
-	font-size: 12px;
+	font-size: 0.6667rem;
 }
 
 .knd-button-sm {
 	padding: 12px 16px;
-	font-size: 14px;
+	font-size: 0.7778rem;
 }
 
 .knd-button-lg {
-	font-size: 18px;
+	font-size: 1rem;
 	padding: 12px 20px;
 }
 
 .knd-button-xl {
-	font-size: 31px;
+	font-size: 1.7222rem;
 	padding: 16px 30px;
 }
 
@@ -481,7 +481,7 @@
  */
 .knd-block .section-links {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 1rem;
 	font-family: var(--knd-font-family-base);
 	display: -ms-flexbox;
 	display: flex;
@@ -606,7 +606,7 @@
 }
 
 .knd-block-hero .knd-block-hero__title {
-	font-size: 36px;
+	font-size: 2rem;
 	letter-spacing: .03em;
 	font-weight: 700;
 	margin-bottom: 26px;
@@ -614,7 +614,7 @@
 }
 
 .knd-block-hero__text {
-	font-size: 18px;
+	font-size: 1rem;
 	font-weight: 500;
 	margin-bottom: 26px;
 }
@@ -748,7 +748,7 @@
 
 @media (max-width: 575px) {
 	.knd-block-hero__title {
-		font-size: 28px;
+		font-size: 1.5556rem;
 	}
 
 	.knd-block-hero__actions .knd-button,
@@ -756,7 +756,7 @@
 	.knd-event__booking .em-booking-form-details .knd-block-hero__actions .em-booking-submit,
 	.knd-block-hero__actions .knd-event__login [name="wp-submit"],
 	.knd-event__login .knd-block-hero__actions [name="wp-submit"] {
-		font-size: 16px;
+		font-size: 0.8889rem;
 		padding: 9px 16px;
 	}
 }
@@ -878,7 +878,7 @@
 .wp-block-knd-news .knd-block-title,
 .knd-block-news .section-title,
 .knd-block-news .knd-block-title {
-	font-size: 24px;
+	font-size: 1.3333rem;
 	font-family: var(--knd-font-family-headings);
 	color: var(--knd-block-heading-color);
 	margin-top: 0;
@@ -951,7 +951,7 @@
 	margin: 0;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-size: 18px;
+	font-size: 1rem;
 	font-family: var(--knd-font-family-headings);
 	line-height: 1.25;
 	transition: opacity 0.3s;
@@ -999,7 +999,7 @@
 
 .wp-block-knd-news .entry-meta,
 .knd-block-news .entry-meta {
-	font-size: 11px;
+	font-size: 0.6111rem;
 	font-family: var(--knd-font-family-base);
 	font-weight: 700;
 	line-height: 1.5;
@@ -1122,7 +1122,7 @@
 .knd-block-news .knd-block-post-meta {
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 14px;
+	font-size: 0.7778rem;
 }
 
 .knd-block-news .knd-block-post-meta>* {
@@ -1172,7 +1172,7 @@
 }
 
 .knd-block-news .knd-block-post-category {
-	font-size: 14px;
+	font-size: 0.7778rem;
 	margin-bottom: 15px;
 	display: inline-block;
 }
@@ -1554,7 +1554,7 @@
 }
 
 .wp-block-knd-projects .section-title {
-	font-size: 24px;
+	font-size: 1.3333rem;
 	font-family: var(--knd-font-family-headings);
 	color: var(--knd-color-headings);
 	margin-top: 0;
@@ -1581,7 +1581,7 @@
 	margin: 0;
 	padding-top: 20px;
 	padding-bottom: 0;
-	font-size: 18px;
+	font-size: 1rem;
 	font-weight: 600;
 	font-family: var(--knd-font-family-headings);
 	letter-spacing: .01em;
@@ -1750,7 +1750,7 @@
 }
 
 .wp-block-knd-partners .section-title {
-	font-size: 26px;
+	font-size: 1.4444rem;
 	font-family: var(--knd-font-family-headings);
 	color: var(--knd-color-headings);
 	margin-top: 0;
@@ -1915,7 +1915,7 @@
 }
 
 .wp-block-knd-people .section-title {
-	font-size: 24px;
+	font-size: 1.3333rem;
 	font-family: var(--knd-font-family-headings);
 	color: var(--knd-block-people-heading-color);
 	margin-top: 0;
@@ -2057,7 +2057,7 @@
 }
 
 .wp-block-knd-people .entry-title {
-	font-size: 16px;
+	font-size: 0.8889rem;
 	font-family: var(--knd-font-family-headings);
 	margin: 0;
 	padding: 0 0 12px;
@@ -2069,12 +2069,12 @@
 
 @media (min-width: 992px) {
 	.wp-block-knd-people .entry-title {
-		font-size: 18px;
+		font-size: 1rem;
 	}
 }
 
 .wp-block-knd-people .entry-meta {
-	font-size: 14px;
+	font-size: 0.7778rem ;
 	font-family: var(--knd-font-family-base);
 	line-height: 1.5;
 	line-height: 1.4;
@@ -2205,7 +2205,7 @@
 
 .knd-block .knd-block-cta__title {
 	color: var(--knd-block-cta-title-color);
-	font-size: 14px;
+	font-size: 0.7778rem ;
 	font-weight: 600;
 	line-height: 1.3;
 	text-transform: uppercase;
@@ -2223,7 +2223,7 @@
 .knd-block .knd-block-cta__text {
 	margin-top: 0;
 	color: var(--knd-block-cta-text-color);
-	font-size: 28px;
+	font-size: 1.5556rem;
 	line-height: 1.3;
 	font-weight: 800;
 	font-family: var(--knd-font-family-headings);
@@ -2300,7 +2300,7 @@
 
 .knd-block-info__title {
 	color: var(--knd-block-info-heading-color);
-	font-size: 14px;
+	font-size: 0.7778rem ;
 	font-weight: 600;
 	line-height: 1.4;
 	text-transform: uppercase;
@@ -2310,7 +2310,7 @@
 
 .knd-block-info .knd-block-info__text {
 	color: var(--knd-block-info-title-color);
-	font-size: 30px;
+	font-size: 1.6667rem;
 	line-height: 1.2;
 	padding: 0;
 	margin: 0 auto;
@@ -2360,14 +2360,14 @@
 .knd-block-info .knd-block-info__content h3 {
 	font-family: var(--knd-font-family-headings);
 	color: var(--knd-block-info-headings-color);
-	font-size: 24px;
+	font-size: 1.3333rem;
 	line-height: 1.2;
 	font-weight: 700;
 	margin: 0 auto 20px;
 }
 
 .knd-block-info .knd-block-info__col p {
-	font-size: 18px;
+	font-size: 1rem;
 	font-family: var(--knd-font-family-base);
 	line-height: 1.7;
 	font-weight: 500;
@@ -2382,7 +2382,7 @@
 	color: var(--knd-block-info-link-color);
 	border-bottom: 4px solid var(--knd-block-info-underline-color);
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 0.7778rem ;
 	font-family: var(--knd-font-family-base);
 	text-transform: uppercase;
 	line-height: 1.33;
@@ -2441,7 +2441,7 @@
 	}
 
 	.knd-block-info .knd-block-info__text {
-		font-size: 28;
+		font-size: 1.5556rem;
 	}
 }
 
@@ -2521,14 +2521,14 @@
 
 .knd-block-cover .knd-block-cover-title {
 	margin-top: 0;
-	font-size: 24px;
+	font-size: 1.3333rem;
 	color: var(--knd-block-cover-color);
 	font-family: var(--knd-font-family-headings);
 	font-weight: var(--knd-font-weight-headings);
 }
 
 .knd-block-cover .knd-block-cover-content {
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 1.5;
 	color: var(--knd-block-cover-color);
 }
@@ -2553,7 +2553,7 @@
 .knd-block-recommend {
 	font-style: italic;
 	letter-spacing: normal;
-	font-size: 16px;
+	font-size: 0.8889rem;
 	line-height: 1.5;
 	color: var(--knd-block-recommend-color);
 	padding: 15px 20px;
@@ -2572,7 +2572,7 @@
 }
 
 .knd-block-hint {
-	font-size: 14px;
+	font-size: 0.7778rem ;
 	line-height: 21px;
 	border: 2px dashed #000000;
 	border-radius: 10px;
@@ -2786,7 +2786,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 }
 
 .the-content .knd-block-donations .widgettitle {
-	font-size: 36px;
+	font-size: 2rem;
 	text-align: center;
 	font-family: var(--knd-font-family-headings);
 	line-height: 1.11;
@@ -2822,7 +2822,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 }
 
 .the-content .knd-block-donations .widgettitle {
-	font-size: 36px;
+	font-size: 2rem;
 	text-align: center;
 	font-family: var(--knd-font-family-headings);
 	line-height: 1.11;
@@ -2954,7 +2954,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 }
 
 .knd-block-leyka-cards .section-title {
-	font-size: 24px;
+	font-size: 1.3333rem;
 	font-family: var(--knd-font-family-headings);
 	color: var(--knd-block-people-heading-color);
 	margin-top: 0;
@@ -3197,7 +3197,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 }
 
 .wp-block-knd-events .section-title {
-	font-size: 24px;
+	font-size: 1.3333rem;
 	font-family: var(--knd-font-family-headings);
 	color: var(--knd-color-headings);
 	margin-top: 0;
@@ -3320,7 +3320,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 }
 
 .knd-events__title {
-	font-size: 32px;
+	font-size: 1.7778rem;
 	margin-bottom: 30px;
 }
 
@@ -3468,7 +3468,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 
 @media (max-width: 767px) {
 	.knd-event__sticky-content h2 {
-		font-size: 24px;
+		font-size: 1.3333rem;
 	}
 }
 
@@ -3507,12 +3507,12 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 
 .knd-event__sticky-date {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 1.2222rem;
 	color: var(--knd-color-main);
 }
 
 .knd-event__sticky-month {
-	font-size: 16px;
+	font-size: 0.8889rem;
 	text-transform: lowercase;
 	color: #4d606a;
 }
@@ -3698,18 +3698,18 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 
 .knd-event__date {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 1.2222rem;
 	color: var(--knd-color-main);
 }
 
 .knd-event__month {
-	font-size: 16px;
+	font-size: 0.8889rem;
 	text-transform: lowercase;
 	color: #4d606a;
 }
 
 .knd-event__details h5 {
-	font-size: 18px;
+	font-size: 1rem;
 	margin-top: 0;
 	margin-bottom: 10px;
 }
@@ -3727,7 +3727,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 .knd-event__details-item {
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 14px;
+	font-size: 0.7778rem ;
 	font-weight: 600;
 	color: #4d606a;
 	margin-bottom: 10px;
@@ -3758,7 +3758,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 .knd-event__details-remained {
 	color: #f43724;
 	text-transform: uppercase;
-	font-size: 11px;
+	font-size: 0.6111rem;
 	margin-bottom: 12px;
 }
 
@@ -3859,7 +3859,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 .knd-event__speaker-item {
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 14px;
+	font-size: 0.7778rem ;
 	font-weight: 600;
 	color: #4d606a !important;
 	-ms-flex-align: center;
@@ -4002,7 +4002,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 	display: inline-block;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 17px;
+	font-size: 0.9444rem;
 	padding: 12px 20px;
 	color: #fff;
 	background: var(--knd-color-main);
@@ -4291,13 +4291,13 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 }
 
 .knd-entry-event__speaker-name {
-	font-size: 18px;
+	font-size: 1rem;
 	font-weight: bold;
 	margin: 15px 0 8px;
 }
 
 .knd-entry-event__speaker-desc {
-	font-size: 14px;
+	font-size: 0.7778rem ;
 	font-weight: 600;
 }
 
