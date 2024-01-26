@@ -811,13 +811,13 @@ h6 {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.the-content .video-caption {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.the-content .video-caption {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -845,19 +845,19 @@ h6 {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.the-content .wp-caption-text {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.the-content .wp-caption-text {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
 @media (min-width: 1024px) {
 	.the-content .wp-caption-text {
-		font-size: 14px;
+		font-size: 0.7778rem;
 	}
 }
 
@@ -1485,7 +1485,7 @@ body>svg {
 }
 
 .main-content.archive-post-list .projects-completed-container .section-title {
-	font-size: 1.4444;
+	font-size: 1.4444rem;
 	font-family: var(--knd-font-family-headings);
 	color: var(--knd-color-headings);
 	margin-top: 0;
@@ -1532,13 +1532,13 @@ body>svg {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.section-title {
-		font-size: calc(37.88801px + 3.15733 * ((100vw - 440px) / 328));
+		font-size: calc(2.10488rem + 3.15733 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.section-title {
-		font-size: calc(41.04535px + 3.15733 * ((100vw - 768px) / 256));
+		font-size: calc(2.28029rem + 3.15733 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -1661,13 +1661,13 @@ body>svg {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.site-logo .logo-name {
-		font-size: calc(21.32267px + 1.77689 * ((100vw - 440px) / 328));
+		font-size: calc(1.18457rem + 1.77689 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.site-logo .logo-name {
-		font-size: calc(23.09956px + 1.77689 * ((100vw - 768px) / 256));
+		font-size: calc(1.2833rem + 1.77689 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -1690,13 +1690,13 @@ body>svg {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.site-logo .logo-desc {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.site-logo .logo-desc {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -1742,7 +1742,7 @@ body>svg {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.trigger-button.donate a {
-		font-size: calc(15.996px + 1.333 * ((100vw - 440px) / 328));
+		font-size: calc(0.8886rem + 1.333 * ((100vw - 440px) / 328));
 	}
 }
 
@@ -1998,13 +1998,13 @@ body>svg {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.main-menu li>a {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.main-menu li>a {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -3679,7 +3679,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 	.tpl-post .entry-summary,
 	.tpl-related-post .entry-summary {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
@@ -3687,7 +3687,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 	.tpl-post .entry-summary,
 	.tpl-related-post .entry-summary {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -3760,13 +3760,13 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.tpl-project .entry-title {
-		font-size: calc(15.996px + 1.333 * ((100vw - 440px) / 328));
+		font-size: calc(0.8886rem + 1.333 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.tpl-project .entry-title {
-		font-size: calc(17.329px + 1.333 * ((100vw - 768px) / 256));
+		font-size: calc(0.96272rem + 1.333 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -3795,13 +3795,13 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.tpl-person .entry-title {
-		font-size: calc(15.996px + 1.333 * ((100vw - 440px) / 328));
+		font-size: calc(0.8886rem + 1.333 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.tpl-person .entry-title {
-		font-size: calc(17.329px + 1.333 * ((100vw - 768px) / 256));
+		font-size: calc(0.96272rem + 1.333 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -3848,13 +3848,13 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.tpl-person .entry-meta {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.tpl-person .entry-meta {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -4052,13 +4052,13 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.entry-header-single .entry-title {
-		font-size: calc(37.88801px + 3.15733 * ((100vw - 440px) / 328));
+		font-size: calc(2.104889rem + 3.15733 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.entry-header-single .entry-title {
-		font-size: calc(41.04535px + 3.15733 * ((100vw - 768px) / 256));
+		font-size: calc(2.28029rem + 3.15733 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -4147,13 +4147,13 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.introimg-figure .wp-caption-text {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.introimg-figure .wp-caption-text {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -4181,13 +4181,13 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.entry-content-single .entry-lead {
-		font-size: calc(21.32267px + 1.77689 * ((100vw - 440px) / 328));
+		font-size: calc(1.18459rem + 1.77689 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.entry-content-single .entry-lead {
-		font-size: calc(23.09956px + 1.77689 * ((100vw - 768px) / 256));
+		font-size: calc(1, 2833rem + 1.77689 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -4474,13 +4474,13 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.ldl-item {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.ldl-item {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -4576,13 +4576,13 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.related-card-holder a {
-		font-size: calc(15.996px + 1.333 * ((100vw - 440px) / 328));
+		font-size: calc(0.8886rem + 1.333 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.related-card-holder a {
-		font-size: calc(17.329px + 1.333 * ((100vw - 768px) / 256));
+		font-size: calc(0.96272rem + 1.333 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -4973,13 +4973,13 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.widget-full .widget-full-title {
-		font-size: calc(28.42312px + 2.36859 * ((100vw - 440px) / 328));
+		font-size: calc(1.57906rem + 2.36859 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.widget-full .widget-full-title {
-		font-size: calc(30.79171px + 2.36859 * ((100vw - 768px) / 256));
+		font-size: calc(1.71065rem + 2.36859 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5307,13 +5307,13 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.widget-full.widget_text .textwidget .video-caption {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.widget-full.widget_text .textwidget .video-caption {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5341,13 +5341,13 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.widget-full.widget_text .textwidget .wp-caption-text {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.widget-full.widget_text .textwidget .wp-caption-text {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5542,13 +5542,13 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 @media screen and (min-width: 800px) and (min-width: 440px) and (max-width: 768px) {
 	.widget-full.widget_search .action {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
 @media screen and (min-width: 800px) and (min-width: 768px) and (max-width: 1024px) {
 	.widget-full.widget_search .action {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5628,13 +5628,13 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 @media (min-width: 440px) and (max-width: 768px) {
 	.button {
-		font-size: calc(15.996px + 1.333 * ((100vw - 440px) / 328));
+		font-size: calc(0.8886rem + 1.333 * ((100vw - 440px) / 328));
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.button {
-		font-size: calc(17.329px + 1.333 * ((100vw - 768px) / 256));
+		font-size: calc(0.96272rem + 1.333 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5731,7 +5731,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .help-purpose,
 	.leyka-loop .tpl-related-post .help-purpose {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
@@ -5739,7 +5739,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .help-purpose,
 	.leyka-loop .tpl-related-post .help-purpose {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5766,7 +5766,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .lk-title,
 	.leyka-loop .tpl-related-post .lk-title {
-		font-size: calc(21.32267px + 1.77689 * ((100vw - 440px) / 328));
+		font-size: calc(1.18459rem + 1.77689 * ((100vw - 440px) / 328));
 	}
 }
 
@@ -5774,7 +5774,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .lk-title,
 	.leyka-loop .tpl-related-post .lk-title {
-		font-size: calc(23.09956px + 1.77689 * ((100vw - 768px) / 256));
+		font-size: calc(1, 2833rem + 1.77689 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5827,7 +5827,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .leyka-scale-label,
 	.leyka-loop .tpl-related-post .leyka-scale-label {
-		font-size: calc(15.996px + 1.333 * ((100vw - 440px) / 328));
+		font-size: calc(0.8886rem + 1.333 * ((100vw - 440px) / 328));
 	}
 }
 
@@ -5835,7 +5835,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .leyka-scale-label,
 	.leyka-loop .tpl-related-post .leyka-scale-label {
-		font-size: calc(17.329px + 1.333 * ((100vw - 768px) / 256));
+		font-size: calc(0.96272rem + 1.333 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5861,7 +5861,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .leyka-scale-label .caption,
 	.leyka-loop .tpl-related-post .leyka-scale-label .caption {
-		font-size: calc(12px + 1 * ((100vw - 440px) / 328));
+		font-size: calc(0.6667rem + 1 * ((100vw - 440px) / 328));
 	}
 }
 
@@ -5869,7 +5869,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .leyka-scale-label .caption,
 	.leyka-loop .tpl-related-post .leyka-scale-label .caption {
-		font-size: calc(13px + 1 * ((100vw - 768px) / 256));
+		font-size: calc(0.7222rem + 1 * ((100vw - 768px) / 256));
 	}
 }
 
@@ -5923,7 +5923,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .leyka-scale-button-alone a,
 	.leyka-loop .tpl-related-post .leyka-scale-button-alone a {
-		font-size: calc(15.996px + 1.333 * ((100vw - 440px) / 328));
+		font-size: calc(0.8886rem + 1.333 * ((100vw - 440px) / 328));
 	}
 }
 
@@ -5931,7 +5931,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 	.leyka-loop .tpl-post .leyka-scale-button-alone a,
 	.leyka-loop .tpl-related-post .leyka-scale-button-alone a {
-		font-size: calc(17.329px + 1.333 * ((100vw - 768px) / 256));
+		font-size: calc(0.96272rem + 1.333 * ((100vw - 768px) / 256));
 	}
 }
 
