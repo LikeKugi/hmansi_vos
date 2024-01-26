@@ -1,3 +1,6 @@
+:root {
+  --knd-line-height: 1;
+}
 /**
  * Customizer
  */
@@ -42,7 +45,7 @@
 	font-size: 0.7778rem;
 	padding: 10px 10px 11px 14px;
 	margin: 8px -12px 0;
-	line-height: 1.55;
+	line-height: calc(var(--knd-line-height) * 1.55);
 	font-weight: 600;
 }
 .knd-customizer-heading + .knd-customizer-heading {
@@ -83,7 +86,7 @@
 }
 
 .customize-control-title {
-	line-height: 1.3;
+	line-height: calc(var(--knd-line-height) * 1.3);
 }
 
 .customize-control-repeater .upload-button {

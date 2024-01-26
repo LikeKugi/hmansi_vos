@@ -1,4 +1,7 @@
 @charset "UTF-8";
+:root {
+  --knd-line-height: 1;
+}
 /**
  * Gutenberg
  */
@@ -30,7 +33,7 @@
 /* Elements */
 .editor-styles-wrapper {
 	font-family: var(--knd-font-family-base) !important;
-	line-height: 1.55;
+	line-height: calc(var(--knd-line-height) * 1.55);
 	font-weight: var(--knd-font-weight-base, 500);
 	font-size: var(--knd-font-size-base);
 	background-color: var(--knd-page-bg-color);
