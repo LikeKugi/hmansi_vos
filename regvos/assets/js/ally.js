@@ -1,6 +1,8 @@
 const settingsBlock = document.querySelector("#ally-settings");
 const triggerAnchors = document.querySelectorAll(".ally a");
 
+const root = document.querySelector('html');
+
 const toggleAllyBlockVisibility = () => {
     if (settingsBlock.classList.contains("is-hidden")) {
         settingsBlock.classList.remove("is-hidden");
@@ -23,7 +25,7 @@ const toggleAllyBlockVisibility = () => {
 };
 
 const clearBodyClasses = (classes) => {
-    document.body.classList.remove(...classes);
+    root.classList.remove(...classes);
 };
 
 const clearTheme = () => {
@@ -142,17 +144,17 @@ const handleAllyButtonClick = (e) => {
             removeSpeechListeners();
             return;
         } else {
-            document.addEventListener("mousemove", handleMouseMove);
+            addSpeechListeners();
         }
     }
 
     const classToBody = `${cookieName}-${cookieValue}`;
 
-    if (document.body.classList.contains(classToBody)) {
-        document.body.classList.remove(classToBody);
+    if (root.classList.contains(classToBody)) {
+        root.classList.remove(classToBody);
     } else {
         customClearBodyClasses(cookieName);
-        document.body.classList.add(classToBody);
+        root.classList.add(classToBody);
     }
 
     if (getCookie(cookieName) === cookieValue) {
@@ -234,6 +236,10 @@ if ("speechSynthesis" in window) {
     enableSpeechBtn.ariaLabel = enableSpeechBtn.dataset.speechExists;
     disableSpeechBtn.disabled = false;
     disableSpeechBtn.ariaLabel = disableSpeechBtn.dataset.speechExists;
+
+    if (root.classList.contains('ally-speech-show')) {
+        addSpeechListeners();
+    }
 } else {
     enableSpeechBtn.disabled = true;
     enableSpeechBtn.ariaLabel = enableSpeechBtn.dataset.speechError;
@@ -241,8 +247,15 @@ if ("speechSynthesis" in window) {
     disableSpeechBtn.ariaLabel = disableSpeechBtn.dataset.speechError;
 }
 
+function addSpeechListeners() {
+    document.addEventListener("mousemove", handleMouseMove);
+    document.addEventListener('keyup', handleKeyboardNavigation);
+    chooseVariantOfSpeech(enableSpeechBtn);
+}
+
 function removeSpeechListeners() {
     document.removeEventListener("mousemove", handleMouseMove);
+    document.removeEventListener('keyup', handleKeyboardNavigation);
 }
 
 function textToSpeech() {
@@ -251,30 +264,26 @@ function textToSpeech() {
 
     const utterance = new SpeechSynthesisUtterance(ref.current);
 
-    // Select a voice
     const voices = speechSynthesis.getVoices();
-    utterance.voice = voices[0]; // Choose a specific voice
+    utterance.voice = voices[0];
 
-    // Speak the text
     speechSynthesis.speak(utterance);
 }
 
-function handleMouseMove(e) {
-    if (e.target.closest('p')) {
-        if (e.target.closest('p').textContent === ref.current) {
+function chooseVariantOfSpeech(tag) {
+    if (tag.closest('p')) {
+        if (tag.closest('p').textContent === ref.current) {
             return;
         }
-        ref.current = e.target.closest('p').textContent;
-        // console.log('text content ---> ', ref.current);
+        ref.current = tag.closest('p').textContent;
         textToSpeech(ref.current);
     }
-    else if (e.target.closest('a')) {
-        const anchor = e.target.closest('a');
+    else if (tag.closest('a')) {
+        const anchor = tag.closest('a');
         if (anchor.ariaLabel) {
             const str = `Ссылка ${anchor.ariaLabel}`
             if (str !== ref.current) {
                 ref.current = str;
-                // console.log('anchor ariaLabel ---> ', ref.current);
                 textToSpeech(ref.current);
             }
             return;
@@ -283,24 +292,21 @@ function handleMouseMove(e) {
             const str = `Ссылка ${anchor.textContent}`
             if (str !== ref.current) {
                 ref.current = str;
-                // console.log('anchor textContent ---> ', ref.current);
                 textToSpeech(ref.current);
             }
             return;
         }
         if (anchor.href !== ref.current) {
             ref.current = `Ссылка ${anchor.href}`;
-            // console.log('anchor href ---> ', ref.current);
             textToSpeech(ref.current);
         }
     }
-    else if (e.target.closest('button')) {
-        const btn = e.target.closest('button');
+    else if (tag.closest('button')) {
+        const btn = tag.closest('button');
         if (btn.ariaLabel) {
             const str = `Кнопка ${btn.ariaLabel}`
             if (str !== ref.current) {
                 ref.current = str;
-                // console.log('btn ariaLabel ---> ', ref.current);
                 textToSpeech(ref.current);
 
             }
@@ -310,76 +316,67 @@ function handleMouseMove(e) {
             const str = `Кнопка ${btn.textContent}`
             if (str !== ref.current) {
                 ref.current = str;
-                // console.log('btn textContent ---> ', ref.current);
                 textToSpeech(ref.current);
             }
             return;
         }
         if (btn.href !== ref.current) {
             ref.current = `Кнопка ${btn.href}`;
-            // console.log('btn href ---> ', ref.current);
             textToSpeech(ref.current);
         }
     }
-    else if (e.target.closest('h1')) {
-        const str = `Заголовок первого уровня ${e.target.closest('h1').textContent}`;
+    else if (tag.closest('h1')) {
+        const str = `Заголовок первого уровня ${tag.closest('h1').textContent}`;
         if (str !== ref.current) {
             ref.current = str;
-            // console.log('header 1 ---> ', ref.current);
             textToSpeech(ref.current);
         }
     }
-    else if (e.target.closest('h2')) {
-        const str = `Заголовок второго уровня ${e.target.closest('h2').textContent}`;
+    else if (tag.closest('h2')) {
+        const str = `Заголовок второго уровня ${tag.closest('h2').textContent}`;
         if (str !== ref.current) {
             ref.current = str;
-            // console.log('header 2 ---> ', ref.current);
             textToSpeech(ref.current);
         }
     }
-    else if (e.target.closest('h3')) {
-        const str = `Заголовок третьего уровня ${e.target.closest('h3').textContent}`;
+    else if (tag.closest('h3')) {
+        const str = `Заголовок третьего уровня ${tag.closest('h3').textContent}`;
         if (str !== ref.current) {
             ref.current = str;
-            // console.log('header 3 ---> ', ref.current);
             textToSpeech(ref.current);
         }
     }
-    else if (e.target.closest('h4')) {
-        const str = `Заголовок четвертого уровня ${e.target.closest('h4').textContent}`;
+    else if (tag.closest('h4')) {
+        const str = `Заголовок четвертого уровня ${tag.closest('h4').textContent}`;
         if (str !== ref.current) {
             ref.current = str;
-            // console.log('header 4 ---> ', ref.current);
             textToSpeech(ref.current);
         }
     }
-    else if (e.target.closest('h5')) {
-        const str = `Заголовок пятого уровня ${e.target.closest('h5').textContent}`;
+    else if (tag.closest('h5')) {
+        const str = `Заголовок пятого уровня ${tag.closest('h5').textContent}`;
         if (str !== ref.current) {
             ref.current = str;
-            // console.log('header 5 ---> ', ref.current);
             textToSpeech(ref.current);
         }
     }
-    else if (e.target.closest('h6')) {
-        const str = `Заголовок шестого уровня ${e.target.closest('h6').textContent}`;
+    else if (tag.closest('h6')) {
+        const str = `Заголовок шестого уровня ${tag.closest('h6').textContent}`;
         if (str !== ref.current) {
             ref.current = str;
-            // console.log('header 6 ---> ', ref.current);
             textToSpeech(ref.current);
         }
     }
-    else if (e.target.closest("[aria-label]")) {
-        const current = e.target.closest("[aria-label]").ariaLabel;
+    else if (tag.closest("[aria-label]")) {
+        const current = tag.closest("[aria-label]").ariaLabel;
         if (current === ref.current) {
             return;
         }
         ref.current = current;
-        // console.log("aria-label ---> ", ref.current);
         textToSpeech(ref.current);
     }
-    else if (e.target.closest("[aria-describedby]")) {
-        const current = document.querySelector(`#${e.target.closest("[aria-describedby]")
+    else if (tag.closest("[aria-describedby]")) {
+        const current = document.querySelector(`#${tag.closest("[aria-describedby]")
             .outerHTML
             .toString()
             .match(/aria-describedby="(?<tagId>[^"]+)"/i)
@@ -387,11 +384,10 @@ function handleMouseMove(e) {
         ).textContent;
         if (current === ref.current) return;
         ref.current = current;
-        // console.log('aria-labelledby ---> ',ref.current)
         textToSpeech(ref.current);
     }
-    else if (e.target.closest("[aria-labelledby]")) {
-        const current = document.querySelector(`#${e.target.closest("[aria-labelledby]")
+    else if (tag.closest("[aria-labelledby]")) {
+        const current = document.querySelector(`#${tag.closest("[aria-labelledby]")
             .outerHTML
             .toString()
             .match(/aria-labelledby="(?<tagId>[^"]+)"/i)
@@ -399,19 +395,27 @@ function handleMouseMove(e) {
         ).textContent;
         if (current === ref.current) return;
         ref.current = current;
-        // console.log('aria-labelledby ---> ',ref.current);
         textToSpeech(ref.current);
     }
     else {
-        if (e.target.textContent) {
-            if (e.target.textContent !== ref.current) {
-                ref.current = e.target.textContent;
-                // console.log('simple text ---> ', ref.current);
+        if (tag.textContent) {
+            if (tag.textContent !== ref.current) {
+                ref.current = tag.textContent;
                 textToSpeech(ref.current);
             }
         }
         else {
             ref.current = null;
         }
+    }
+}
+
+function handleMouseMove(e) {
+    chooseVariantOfSpeech(e.target);
+}
+
+function handleKeyboardNavigation(e) {
+    if (e.code === 'Tab' || e.code === 'ArrowUp' || e.code === 'ArrowDown') {
+        chooseVariantOfSpeech(document.querySelector(':focus'))
     }
 }
