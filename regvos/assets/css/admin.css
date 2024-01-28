@@ -1,3 +1,6 @@
+:root {
+  --knd-line-height: 1;
+}
 /* columns */
 .admin-tmb {
 	width: 90%;
@@ -18,7 +21,7 @@
 .wp-list-table .column-author,
 .wp-list-table .column-id,
 .wp-list-table .column-thumbnail,
-.wp-list-table .column-menu_order {
+.wp-lists-table .column-menu_order {
 	width: 6%;
 	vertical-align: middle;
 }
@@ -142,7 +145,7 @@ div [id*="ninja_forms_metabox"] .item-edit.metabox-item-edit:before {
 	right: 0;
 	padding: 10px 15px 10px 21px;
 	font-size: 13px;
-	line-height: 1.23076923;
+	line-height: calc(var(--knd-line-height) * 1.23076923);
 	text-decoration: none;
 }
 
