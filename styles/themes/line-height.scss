@@ -1,0 +1,13 @@
+.ally-lh {
+    &-normal {
+        --knd-line-height: 1;
+    }
+
+    &-medium {
+        --knd-line-height: 1.5;
+    }
+
+    &-big {
+        --knd-line-height: 2;
+    }
+}

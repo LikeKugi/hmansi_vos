@@ -1,0 +1,19 @@
+.schema-faq {
+    &-section {
+        padding: 0.5rem 1rem;
+
+        &:nth-child(2n+1) {
+            background-color: var(--knd-footer-background, #f7f8f8);
+            ;
+        }
+
+        &:not(:last-of-type) {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &-question {
+        margin-bottom: 0.8rem;
+        font-size: 1.1rem;
+    }
+}

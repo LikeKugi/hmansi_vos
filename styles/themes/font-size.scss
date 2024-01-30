@@ -1,0 +1,28 @@
+.ally-fz {
+    &-normal {
+        --knd-font-size-base: 18px;
+        --knd-font-size-menu: 18px;
+        --knd-font-size-logo: 18px;
+        --knd-block-post-title-fontsize: 18px;
+        --knd-block-post-excerpt-fontsize: 14px;
+        font-size: 18px;
+    }
+
+    &-medium {
+        --knd-font-size-base: 27px;
+        --knd-font-size-menu: 27px;
+        --knd-font-size-logo: 27px;
+        --knd-block-post-title-fontsize: 27px;
+        --knd-block-post-excerpt-fontsize: 21px;
+        font-size: 27px;
+    }
+
+    &-big {
+        --knd-font-size-base: 36px;
+        --knd-font-size-menu: 36px;
+        --knd-font-size-logo: 36px;
+        --knd-block-post-title-fontsize: 36px;
+        --knd-block-post-excerpt-fontsize: 28px;
+        font-size: 36px;
+    }
+}
