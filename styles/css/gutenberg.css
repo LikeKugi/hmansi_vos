@@ -1,4 +1,7 @@
 @charset "UTF-8";
+:root {
+  --knd-line-height: 1;
+}
 /**
  * Gutenberg
  */
@@ -30,7 +33,7 @@
 /* Elements */
 .editor-styles-wrapper {
 	font-family: var(--knd-font-family-base) !important;
-	line-height: 1.55;
+	line-height: calc(var(--knd-line-height) * 1.55);
 	font-weight: var(--knd-font-weight-base, 500);
 	font-size: var(--knd-font-size-base);
 	background-color: var(--knd-page-bg-color);
@@ -57,27 +60,27 @@
 }
 
 .editor-styles-wrapper h1 {
-	font-size: 44px;
+	font-size: 2.4444rem;
 }
 
 .editor-styles-wrapper h2 {
-	font-size: 37px;
+	font-size: 2.0556rem;
 }
 
 .editor-styles-wrapper h3 {
-	font-size: 31px;
+	font-size: 1.7222rem;
 }
 
 .editor-styles-wrapper h4 {
-	font-size: 26px;
+	font-size: 1.4444rem;
 }
 
 .editor-styles-wrapper h5 {
-	font-size: 22px;
+	font-size: 1.2222rem;
 }
 
 .editor-styles-wrapper h6 {
-	font-size: 18px;
+	font-size: 1rem;
 }
 
 .editor-styles-wrapper .wp-block[data-align=full] {
@@ -184,7 +187,7 @@
 }
 
 .knd-components-heading__label {
-	font-size: 12px;
+	font-size: 0.6667rem;
 	color: #757575;
 	margin-bottom: 8px;
 }

@@ -64,31 +64,26 @@
     src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/OpenDyslexic-Bold.woff) format('woff');
 }
 
-// without
 
-.ally-ff-sans {
-    font-family: "Raleway", Arial, sans-serif;
+.ally-ff {
 
-    :root {
+    // Without
+    &-sans {
+        font-family: "Raleway", Arial, sans-serif;
         --knd-font-family-base: "Raleway";
         --knd-font-family-headings: "Raleway", Arial, sans-serif;
     }
-}
 
-// with
-.ally-ff-serif {
-    font-family: 'Charis SIL', serif;
-
-    :root {
+    //with
+    &-serif {
+        font-family: 'Charis SIL', serif;
         --knd-font-family-base: "Charis SIL";
         --knd-font-family-headings: 'Charis SIL', serif;
     }
-}
 
-.ally-ff-dyslexic {
-    font-family: "OperDyslexic", Arial, sans-serif;
-
-    :root {
+    //dyslexic
+    &-dyslexic {
+        font-family: "OperDyslexic", Arial, sans-serif;
         --knd-font-family-base: "OperDyslexic";
         --knd-font-family-headings: "OperDyslexic", Arial, sans-serif;
     }

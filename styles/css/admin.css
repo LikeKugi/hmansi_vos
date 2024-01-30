@@ -1,3 +1,7 @@
+:root {
+	--knd-line-height: 1;
+}
+
 /* columns */
 .admin-tmb {
 	width: 90%;
@@ -87,8 +91,8 @@
 	color: #DD3D36;
 }
 
-.cmb-repeat-group-wrap .cmb2-wrap > .cmb-field-list > .cmb-row,
-.postbox-container .cmb2-wrap > .cmb-field-list > .cmb-row {
+.cmb-repeat-group-wrap .cmb2-wrap>.cmb-field-list>.cmb-row,
+.postbox-container .cmb2-wrap>.cmb-field-list>.cmb-row {
 	padding: 0.5em 0;
 	margin: 0;
 }
@@ -142,7 +146,7 @@ div [id*="ninja_forms_metabox"] .item-edit.metabox-item-edit:before {
 	right: 0;
 	padding: 10px 15px 10px 21px;
 	font-size: 13px;
-	line-height: 1.23076923;
+	line-height: calc(var(--knd-line-height) * 1.23076923);
 	text-decoration: none;
 }
 
@@ -222,7 +226,8 @@ li#wp-admin-bar-remove-theme a {
 	background: #d54e21;
 }
 
-li#wp-admin-bar-remove-theme a:hover, li#wp-admin-bar-remove-theme a:active {
+li#wp-admin-bar-remove-theme a:hover,
+li#wp-admin-bar-remove-theme a:active {
 	background: #d54e21;
 }
 
@@ -230,7 +235,8 @@ li#wp-admin-bar-remove-theme a:hover, li#wp-admin-bar-remove-theme a:active {
 	background: #d54e21;
 }
 
-#adminmenu ul.wp-submenu li a[href$="?page=remove-kandinsky-theme"]:hover, #adminmenu ul.wp-submenu li a[href$="?page=remove-kandinsky-theme"]:active {
+#adminmenu ul.wp-submenu li a[href$="?page=remove-kandinsky-theme"]:hover,
+#adminmenu ul.wp-submenu li a[href$="?page=remove-kandinsky-theme"]:active {
 	background: #d54e21;
 }
 
@@ -247,7 +253,8 @@ li#wp-admin-bar-remove-theme a:hover, li#wp-admin-bar-remove-theme a:active {
 	font-size: 1.5em;
 }
 
-#knd-update-theme, .knd-spinner-update-button {
+#knd-update-theme,
+.knd-spinner-update-button {
 	width: 280px;
 	display: inline-block;
 	text-align: center;
@@ -311,7 +318,7 @@ table.media .column-title .media-icon img[src*='.svg'] {
 	border-radius: 2px;
 }
 
-.knd-event-admin-schedule-group + .knd-event-admin-schedule-group {
+.knd-event-admin-schedule-group+.knd-event-admin-schedule-group {
 	margin-top: 20px;
 }
 
@@ -335,7 +342,7 @@ table.media .column-title .media-icon img[src*='.svg'] {
 	margin-right: -10px;
 }
 
-.knd-event-admin-schedule-item + .knd-event-admin-schedule-item {
+.knd-event-admin-schedule-item+.knd-event-admin-schedule-item {
 	margin-top: 10px;
 }
 
@@ -374,7 +381,7 @@ table.media .column-title .media-icon img[src*='.svg'] {
 	margin-right: 5px;
 }
 
-.dbem-kookings-fields-group + .dbem-kookings-fields-group {
+.dbem-kookings-fields-group+.dbem-kookings-fields-group {
 	margin-top: 10px;
 }
 
