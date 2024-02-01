@@ -9,7 +9,7 @@
 :root {
 	--knd-color-white: #ffffff;
 	--knd-color-black: #000000;
-	--knd-color-light-grey: #f7f8f8;
+	--knd-color-light-grey: var(--knd-preview-background, #f7f8f8);
 	--knd-color-light-blue: #f5fafe;
 	--knd-header-height: 124px;
 	--knd-font-family-button: var(--knd-font-family-base);
@@ -2740,7 +2740,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 }
 
 .archive-post-list .knd-entry:not(.has-post-thumbnail) .entry-preview {
-	background-color: #f7f8f8;
+	background-color: var(--knd-preview-background, #f7f8f8);
 }
 
 .knd-partner-placeholder {
@@ -3570,8 +3570,8 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 	overflow: hidden;
 	border-radius: 15px;
 	height: 100%;
-	background-color: #f7f8f8;
-	border: 1px solid #f7f8f8;
+	background-color: (--knd-preview-background, #f7f8f8);
+	border: 1px solid (--knd-preview-background, #f7f8f8);
 	transition: all .3s;
 }
 
@@ -4107,7 +4107,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 .knd-event__schedule-hours {
 	color: #f43724;
 	font-weight: bold;
-	background-color: #f7f8f8;
+	background-color: (--knd-preview-background, #f7f8f8);
 	white-space: nowrap;
 	padding: 10px;
 	margin-right: 30px;
@@ -4156,7 +4156,7 @@ body:not(.logged-in):not(.block-editor-page) .knd-block-hint {
 .knd-entry-event__info {
 	margin-top: 20px;
 	padding: 20px 25px;
-	background-color: #f7f8f8;
+	background-color: var(--knd-preview-background, #f7f8f8);
 	border-radius: var(--knd-button-border-radius);
 }
 

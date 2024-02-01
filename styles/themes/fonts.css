@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Charis SIL";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/CharisSIL-Italic.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Charis SIL";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/CharisSIL-BoldItalic.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Charis SIL";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/CharisSIL-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Charis SIL";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/CharisSIL-Bold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Charis SIL";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/CharisSIL-Bold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "OperDyslexic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/OpenDyslexic-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "OperDyslexic";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/OpenDyslexic-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "OperDyslexic";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(http://dev.regvos.ru/wp-content/themes/kandinsky/assets/fonts/OpenDyslexic-Bold.woff) format("woff");
+}
+.ally-ff-sans {
+  font-family: "Raleway", Arial, sans-serif;
+  --knd-font-family-base: "Raleway";
+  --knd-font-family-headings: "Raleway", Arial, sans-serif;
+}
+.ally-ff-serif {
+  font-family: "Charis SIL", serif;
+  --knd-font-family-base: "Charis SIL";
+  --knd-font-family-headings: "Charis SIL", serif;
+}
+.ally-ff-dyslexic {
+  font-family: "OperDyslexic", Arial, sans-serif;
+  --knd-font-family-base: "OperDyslexic";
+  --knd-font-family-headings: "OperDyslexic", Arial, sans-serif;
+}/*# sourceMappingURL=fonts.css.map */

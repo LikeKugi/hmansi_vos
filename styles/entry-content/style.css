@@ -1,0 +1,9 @@
+.entry-content .knd-block-cta:first-of-type {
+  margin-top: 0;
+}
+.entry-content .knd-block:nth-child(2n+1) {
+  background-color: var(--knd-footer-background);
+}
+.entry-content .knd-block:nth-child(2n) {
+  background-color: var(--knd-page-bg-color);
+}/*# sourceMappingURL=style.css.map */

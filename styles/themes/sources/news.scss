@@ -1,0 +1,117 @@
+body {
+    background: var(--knd-page-bg-color);
+    color: var(--knd-color-base, #000000);
+
+    &:not(#tinymce) ::selection {
+        background: var(--knd-color-main-active);
+        color: var(--knd-color-white);
+    }
+}
+
+.section-title {
+    color: var(--knd-color-headings);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--knd-color-headings);
+}
+
+.tpl-post .entry-preview:after,
+.tpl-related-post .entry-preview:after {
+    background: rgba(0, 0, 0, 0);
+}
+
+.tpl-post .thumbnail-link,
+.tpl-related-post .thumbnail-link {
+    color: var(--knd-color-base);
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+}
+
+.tpl-post .thumbnail-link,
+.tpl-related-post .thumbnail-link {
+    color: var(--knd-color-base);
+}
+
+.tpl-post .entry-title,
+.tpl-related-post .entry-title {
+    color: var(--knd-color-headings);
+}
+
+.tpl-post .entry-meta a,
+.tpl-related-post .entry-meta a {
+    color: inherit;
+}
+
+.entry-header-single .entry-meta {
+    color: var(--knd-color-headings);
+}
+
+.knd-breadcrumbs a {
+    color: #989898;
+}
+
+.entry-header-single .entry-meta .date {
+    color: var(--knd-color-base);
+}
+
+.entry-header-single .entry-meta .category {
+    color: var(--knd-color-main);
+}
+
+.entry-header-single .entry-title {
+    color: var(--knd-color-headings);
+}
+
+img[alt] {
+    color: #666;
+}
+
+.the-content {
+    color: var(--knd-color-base);
+}
+
+.wp-block-image figcaption {
+    color: #95a4ad;
+}
+
+.related-card-holder .related-title {
+    color: var(--knd-color-headings);
+}
+
+.related-card-holder a {
+    color: var(--knd-color-main);
+}
+
+.the-content h1,
+.the-content h2,
+.the-content h3,
+.the-content h4,
+.the-content h5,
+.the-content h6 {
+    color: var(--knd-color-headings);
+}
+
+.the-content h1,
+.the-content h2,
+.the-content h3,
+.the-content h4,
+.the-content h5,
+.the-content h6 {
+    color: var(--knd-color-headings);
+}
+
+.single-post-terms a {
+    color: var(--knd-color-main);
+}
+
+.related-card-holder a:hover {
+    color: var(--knd-color-main-active);
+}

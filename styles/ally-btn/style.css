@@ -2,10 +2,26 @@
   padding: 0;
 }
 
+#menu-glavnoe-menyu .ally {
+  position: relative;
+}
 #menu-glavnoe-menyu .ally a {
   padding: 0;
 }
+#menu-glavnoe-menyu .ally a:hover .ally__text, #menu-glavnoe-menyu .ally a:focus .ally__text {
+  padding: 0.5rem 1rem;
+  display: block;
+  position: absolute;
+  z-index: 500;
+  top: 100%;
+  left: -250%;
+  font-size: 0.8rem;
+  background-color: var(--knd-header-background);
+  border: 2px solid var(--knd-color-menu-hover, #dd1400);
+  border-radius: var(--knd-button-border-radius);
+}
 #menu-glavnoe-menyu .ally__icon {
+  padding: 5px 5px 0;
   display: block;
 }
 #menu-glavnoe-menyu .ally__text {
