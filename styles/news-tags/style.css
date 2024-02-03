@@ -1,0 +1,6 @@
+.knd-block-post-category a {
+  display: block;
+}
+.knd-block-post-category a:not(:last-of-type) {
+  margin-bottom: -0.2rem;
+}/*# sourceMappingURL=style.css.map */

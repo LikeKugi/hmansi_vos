@@ -1,0 +1,9 @@
+.knd-block-post-category {
+    & a {
+        display: block;
+
+        &:not(:last-of-type) {
+            margin-bottom: -0.2rem;
+        }
+    }
+}
