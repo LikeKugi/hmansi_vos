@@ -1027,7 +1027,7 @@ if (!function_exists('knd_block_post_thumbnail')) {
 				return;
 			}
 
-			$link_start = '<a href="' . get_the_permalink() . '">';
+			$link_start = '<a href="' . get_the_permalink() . '" aria-label="' . wp_trim_words(get_the_title(), 5) . '">';
 			$link_end   = '</a>';
 		}
 
@@ -1056,7 +1056,7 @@ if (!function_exists('knd_block_post_category')) {
 			return;
 		}
 
-		$category = '<div class="knd-block-post-category">' . get_the_category_list('&nbsp;&nbsp; ') . '</div>';
+		$category = '<div class="knd-block-post-category" aria-label="Категории">' . get_the_category_list(' ') . '</div>';
 
 		return $category;
 	}

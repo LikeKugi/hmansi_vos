@@ -40,16 +40,22 @@
     --knd-completed-project-opacity: 0.8;
 }
 
-.ally-theme {
-    &-dark {
+// -------------------------------------------------------------
+
+:root {
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
         --knd-header-background: #0d1117;
-        --knd-color-main: #54c854; // MAIN
-        --knd-color-main-active: #81b39e; // MAIN:hover
+        --knd-color-main: #59CE72; // MAIN
+        --knd-color-main-active: #1bbed8; // MAIN:hover
 
         --knd-color-menu: #DEFEFE;
-        --knd-color-menu-hover: #81b39e; // MAIN:hover
+        --knd-color-menu-hover: #1bbed8; // MAIN:hover
 
-        --knd-page-bg-color: #21262d;
+        --knd-page-bg-color: #1d2327;
         --knd-page-bg-color-dark: #e6edf3;
 
         --knd-page-text-color-light: #e6edf3;
@@ -61,16 +67,287 @@
         --knd-social-color: #939393;
         --knd-social-color-hover: #e6edf3;
 
-        --knd-footer-background: #21262d;
+        --knd-footer-background: #1d2327;
         --knd-footer-heading-color: #e6edf3;
         --knd-footer-color: #e6edf3;
-        --knd-footer-link-color: #4abaff; // BLUE
-        --knd-footer-link-color-hover: #81b39e; // MAIN:hover
+        --knd-footer-link-color: #73b0ff; // BLUE
+        --knd-footer-link-color-hover: #1bbed8; // MAIN:hover
 
         --knd-button-color: #0d1117;
         --knd-button-color-hover: #0d1117;
 
-        --knd-color-light-grey: #21262d;
+        --knd-color-light-grey: #1d2327;
+
+        --knd-preview-background: #808080;
+
+        --knd-bd-gray: #353535; // BORDER-HEADER
+    }
+
+    .knd {
+        &-header-nav {
+            --knd-color-menu: #DEFEFE;
+            --knd-color-menu-hover: #81b39e; // MAIN:hover
+        }
+
+        &-footer {
+            --knd-social-color: #939393;
+            --knd-social-color-hover: #e6edf3;
+        }
+
+        &-search {
+            background-color: rgba(56, 56, 56, 0.85);
+
+            &-toggle {
+                color: #e6edf3;
+            }
+
+            &__form .knd-search__input {
+                background-color: rgba(56, 56, 56, 0.85);
+
+                &::placeholder {
+                    color: #e6edf3;
+                }
+            }
+
+            &-close {
+
+                &:before,
+                &:after {
+                    background-color: #e6edf3;
+                }
+            }
+        }
+
+        &-to-top {
+            background-color: #4e4e4e;
+
+            &:hover {
+                & .svg-icon {
+                    fill: #ffffff;
+                }
+            }
+
+            & .svg-icon {
+                fill: #e6edf3;
+            }
+        }
+    }
+
+    .wp-block-table.is-style-underline tbody tr:hover {
+        background-color: #5d5d5d61;
+        color: #e6edf3;
+    }
+
+    .social-likes {
+        &__widget {
+            & a {
+                border: 1px solid #666666;
+                background-color: #4e4e4e;
+
+                &:hover {
+                    background-color: #858585;
+                }
+
+                & .svg-icon {
+                    fill: #e6edf3;
+                }
+            }
+        }
+    }
+
+    .skip-to-main-content-link {
+        background-color: var(--knd-color-base);
+        color: var(--knd-page-text-color-light);
+    }
+
+    img {
+        filter: drop-shadow(1px 1px 0 rgba(255, 255, 255, 0.8));
+    }
+
+    .wp-block-image figcaption {
+        color: #95a4ad;
+    }
+
+    .ally-settings button {
+        color: var(--knd-button-color);
+        background-color: var(--knd-button-background);
+        border-color: var(--knd-button-background);
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+        &:hover {
+            color: var(--knd-button-color-hover);
+            background-color: var(--knd-button-background-hover);
+            border-color: var(--knd-button-background-hover);
+        }
+    }
+}
+
+.ally-theme {
+    &-light {
+
+        --knd-header-background: #fdfcfc;
+        --knd-color-main: #52a52e;
+        --knd-color-main-active: #c9006b;
+
+        --knd-color-menu: #4d606a;
+        --knd-color-menu-hover: #c9006b;
+
+        --knd-page-bg-color: #fdfcfc;
+        --knd-page-bg-color-dark: #cacaca;
+
+        --knd-page-text-color-light: #e7ffff;
+        --knd-color-base: #4d606a;
+
+        --knd-color-headings: #183343;
+        --knd-completed-project-color: #4d606a;
+
+        --knd-social-color: #183343;
+        --knd-social-color-hover: #4d606a;
+
+        --knd-footer-background: #f7f8f8;
+        --knd-footer-heading-color: #183343;
+        --knd-footer-color: #4d606a;
+        --knd-footer-link-color: #0600ed;
+        --knd-footer-link-color-hover: #c9006b;
+
+        --knd-button-color: #fff;
+        --knd-button-color-hover: #fff;
+
+        --knd-color-light-grey: #f7f8f8;
+
+        --knd-preview-background: #f7f8f8;
+
+        --knd-bd-gray: #E9E9E9;
+
+        & .knd {
+            &-header-nav {
+                --knd-color-menu: #4d606a;
+                --knd-color-menu-hover: #c9006b; // MAIN:hover
+            }
+
+            &-footer {
+                --knd-social-color: #183343;
+                --knd-social-color-hover: #4d606a;
+            }
+
+            &-search {
+                background-color: rgba(255, 255, 255, 0.85);
+
+                &-toggle {
+                    color: #585858;
+                }
+
+                &__form .knd-search__input {
+                    background-color: rgba(255, 255, 255, 0.85);
+
+                    &::placeholder {
+                        color: #585858;
+                    }
+                }
+
+                &-close {
+
+                    &:before,
+                    &:after {
+                        background-color: #585858;
+                    }
+                }
+            }
+
+            &-to-top {
+                background-color: #e6e6e6;
+
+                &:hover {
+                    & .svg-icon {
+                        fill: #4d606a;
+                    }
+                }
+
+                & .svg-icon {
+                    fill: #4d606a;
+                }
+            }
+        }
+
+        & .wp-block-table.is-style-underline tbody tr:hover {
+            background-color: #f3f3f3;
+            color: #4d606a;
+        }
+
+        & .social-likes {
+            &__widget {
+                & a {
+                    border: 1px solid #e6e6e6;
+                    background-color: #fff;
+
+                    &:hover {
+                        background-color: #e6e6e6;
+                    }
+
+                    & .svg-icon {
+                        fill: #4d606a;
+                    }
+                }
+            }
+        }
+
+        & .skip-to-main-content-link {
+            background-color: var(--knd-color-base);
+            color: var(--knd-page-bg-color);
+        }
+
+        & img {
+            filter: none;
+        }
+
+        & .wp-block-image figcaption {
+            color: #95a4ad;
+        }
+
+        & .ally-settings button {
+            color: var(--knd-button-color);
+            background-color: var(--knd-button-background);
+            border-color: var(--knd-button-background);
+            transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+            &:hover {
+                color: var(--knd-button-color-hover);
+                background-color: var(--knd-button-background-hover);
+                border-color: var(--knd-button-background-hover);
+            }
+        }
+    }
+
+    &-dark {
+        --knd-header-background: #0d1117;
+        --knd-color-main: #59CE72; // MAIN
+        --knd-color-main-active: #1bbed8; // MAIN:hover
+
+        --knd-color-menu: #DEFEFE;
+        --knd-color-menu-hover: #1bbed8; // MAIN:hover
+
+        --knd-page-bg-color: #1d2327;
+        --knd-page-bg-color-dark: #e6edf3;
+
+        --knd-page-text-color-light: #e6edf3;
+        --knd-color-base: #e6edf3;
+
+        --knd-color-headings: #e6edf3;
+        --knd-completed-project-color: #939393;
+
+        --knd-social-color: #939393;
+        --knd-social-color-hover: #e6edf3;
+
+        --knd-footer-background: #1d2327;
+        --knd-footer-heading-color: #e6edf3;
+        --knd-footer-color: #e6edf3;
+        --knd-footer-link-color: #73b0ff; // BLUE
+        --knd-footer-link-color-hover: #1bbed8; // MAIN:hover
+
+        --knd-button-color: #0d1117;
+        --knd-button-color-hover: #0d1117;
+
+        --knd-color-light-grey: #1d2327;
 
         --knd-preview-background: #808080;
 
@@ -148,9 +425,165 @@
             }
         }
 
-        .skip-to-main-content-link {
+        & .skip-to-main-content-link {
             background-color: var(--knd-color-base);
             color: var(--knd-page-text-color-light);
+        }
+
+        & img {
+            filter: drop-shadow(1px 1px 0 rgba(255, 255, 255, 0.8));
+        }
+
+        & .wp-block-image figcaption {
+            color: #95a4ad;
+        }
+
+        & .ally-settings button {
+            color: var(--knd-button-color);
+            background-color: var(--knd-button-background);
+            border-color: var(--knd-button-background);
+            transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+            &:hover {
+                color: var(--knd-button-color-hover);
+                background-color: var(--knd-button-background-hover);
+                border-color: var(--knd-button-background-hover);
+            }
+        }
+    }
+
+    &-blue {
+
+        --knd-header-background: #ade8f4;
+        --knd-color-main: #564946;
+        --knd-color-main-active: #8b0086;
+
+        --knd-color-menu: #03045e;
+        --knd-color-menu-hover: #8b0086;
+
+        --knd-page-bg-color: #caf0f8;
+        --knd-page-bg-color-dark: #cacaca;
+
+        --knd-page-text-color-light: #e7ffff;
+        --knd-color-base: #03045e;
+
+        --knd-color-headings: #023e8a;
+        --knd-completed-project-color: #03045e;
+
+        --knd-social-color: #023e8a;
+        --knd-social-color-hover: #03045e;
+
+        --knd-footer-background: #caf0f8;
+        --knd-footer-heading-color: #023e8a;
+        --knd-footer-color: #03045e;
+        --knd-footer-link-color: #0600ed;
+        --knd-footer-link-color-hover: #8b0086;
+
+        --knd-button-color: #fff;
+        --knd-button-color-hover: #fff;
+
+        --knd-color-light-grey: #caf0f8;
+
+        --knd-preview-background: #caf0f8;
+
+        --knd-bd-gray: #E9E9E9;
+
+        & .knd {
+            &-header-nav {
+                --knd-color-menu: #03045e;
+                --knd-color-menu-hover: #8b0086; // MAIN:hover
+            }
+
+            &-footer {
+                --knd-social-color: #023e8a;
+                --knd-social-color-hover: #03045e;
+            }
+
+            &-search {
+                background-color: rgba(208, 246, 255, 0.84);
+
+                &-toggle {
+                    color: #585858;
+                }
+
+                &__form .knd-search__input {
+                    background-color: rgba(208, 246, 255, 0.84);
+
+                    &::placeholder {
+                        color: #585858;
+                    }
+                }
+
+                &-close {
+
+                    &:before,
+                    &:after {
+                        background-color: #585858;
+                    }
+                }
+            }
+
+            &-to-top {
+                background-color: #023e8a;
+
+                &:hover {
+                    & .svg-icon {
+                        fill: #caf0f8;
+                    }
+                }
+
+                & .svg-icon {
+                    fill: #caf0f8;
+                }
+            }
+        }
+
+        & .wp-block-table.is-style-underline tbody tr:hover {
+            background-color: #e5fcff;
+            color: #03045e;
+        }
+
+        & .social-likes {
+            &__widget {
+                & a {
+                    border: 1px solid #03045e;
+                    background-color: #023e8a;
+
+                    &:hover {
+                        background-color: #03045e;
+                    }
+
+                    & .svg-icon {
+                        fill: #caf0f8;
+                    }
+                }
+            }
+        }
+
+        & .skip-to-main-content-link {
+            background-color: var(--knd-color-base);
+            color: var(--knd-page-bg-color);
+        }
+
+        & img {
+            filter: none;
+        }
+
+        & .wp-block-image figcaption {
+            color: #464d51;
+        }
+
+        & .ally-settings button {
+            color: var(--knd-button-color);
+            background-color: var(--knd-button-background);
+            border-color: var(--knd-button-background);
+            transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+            &:hover {
+                color: var(--knd-button-color-hover);
+                background-color: var(--knd-button-background-hover);
+                border-color: var(--knd-button-background-hover);
+            }
         }
     }
 }

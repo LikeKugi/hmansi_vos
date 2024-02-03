@@ -31,13 +31,209 @@
   --knd-completed-project-opacity: 0.8;
 }
 
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --knd-header-background: #0d1117;
+    --knd-color-main: #59CE72;
+    --knd-color-main-active: #1bbed8;
+    --knd-color-menu: #DEFEFE;
+    --knd-color-menu-hover: #1bbed8;
+    --knd-page-bg-color: #1d2327;
+    --knd-page-bg-color-dark: #e6edf3;
+    --knd-page-text-color-light: #e6edf3;
+    --knd-color-base: #e6edf3;
+    --knd-color-headings: #e6edf3;
+    --knd-completed-project-color: #939393;
+    --knd-social-color: #939393;
+    --knd-social-color-hover: #e6edf3;
+    --knd-footer-background: #1d2327;
+    --knd-footer-heading-color: #e6edf3;
+    --knd-footer-color: #e6edf3;
+    --knd-footer-link-color: #73b0ff;
+    --knd-footer-link-color-hover: #1bbed8;
+    --knd-button-color: #0d1117;
+    --knd-button-color-hover: #0d1117;
+    --knd-color-light-grey: #1d2327;
+    --knd-preview-background: #808080;
+    --knd-bd-gray: #353535;
+  }
+  .knd-header-nav {
+    --knd-color-menu: #DEFEFE;
+    --knd-color-menu-hover: #81b39e;
+  }
+  .knd-footer {
+    --knd-social-color: #939393;
+    --knd-social-color-hover: #e6edf3;
+  }
+  .knd-search {
+    background-color: rgba(56, 56, 56, 0.85);
+  }
+  .knd-search-toggle {
+    color: #e6edf3;
+  }
+  .knd-search__form .knd-search__input {
+    background-color: rgba(56, 56, 56, 0.85);
+  }
+  .knd-search__form .knd-search__input::-moz-placeholder {
+    color: #e6edf3;
+  }
+  .knd-search__form .knd-search__input::placeholder {
+    color: #e6edf3;
+  }
+  .knd-search-close:before, .knd-search-close:after {
+    background-color: #e6edf3;
+  }
+  .knd-to-top {
+    background-color: #4e4e4e;
+  }
+  .knd-to-top:hover .svg-icon {
+    fill: #ffffff;
+  }
+  .knd-to-top .svg-icon {
+    fill: #e6edf3;
+  }
+  .wp-block-table.is-style-underline tbody tr:hover {
+    background-color: rgba(93, 93, 93, 0.3803921569);
+    color: #e6edf3;
+  }
+  .social-likes__widget a {
+    border: 1px solid #666666;
+    background-color: #4e4e4e;
+  }
+  .social-likes__widget a:hover {
+    background-color: #858585;
+  }
+  .social-likes__widget a .svg-icon {
+    fill: #e6edf3;
+  }
+  .skip-to-main-content-link {
+    background-color: var(--knd-color-base);
+    color: var(--knd-page-text-color-light);
+  }
+  img {
+    filter: drop-shadow(1px 1px 0 rgba(255, 255, 255, 0.8));
+  }
+  .wp-block-image figcaption {
+    color: #95a4ad;
+  }
+  .ally-settings button {
+    color: var(--knd-button-color);
+    background-color: var(--knd-button-background);
+    border-color: var(--knd-button-background);
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  .ally-settings button:hover {
+    color: var(--knd-button-color-hover);
+    background-color: var(--knd-button-background-hover);
+    border-color: var(--knd-button-background-hover);
+  }
+}
+.ally-theme-light {
+  --knd-header-background: #fdfcfc;
+  --knd-color-main: #52a52e;
+  --knd-color-main-active: #c9006b;
+  --knd-color-menu: #4d606a;
+  --knd-color-menu-hover: #c9006b;
+  --knd-page-bg-color: #fdfcfc;
+  --knd-page-bg-color-dark: #cacaca;
+  --knd-page-text-color-light: #e7ffff;
+  --knd-color-base: #4d606a;
+  --knd-color-headings: #183343;
+  --knd-completed-project-color: #4d606a;
+  --knd-social-color: #183343;
+  --knd-social-color-hover: #4d606a;
+  --knd-footer-background: #f7f8f8;
+  --knd-footer-heading-color: #183343;
+  --knd-footer-color: #4d606a;
+  --knd-footer-link-color: #0600ed;
+  --knd-footer-link-color-hover: #c9006b;
+  --knd-button-color: #fff;
+  --knd-button-color-hover: #fff;
+  --knd-color-light-grey: #f7f8f8;
+  --knd-preview-background: #f7f8f8;
+  --knd-bd-gray: #E9E9E9;
+}
+.ally-theme-light .knd-header-nav {
+  --knd-color-menu: #4d606a;
+  --knd-color-menu-hover: #c9006b;
+}
+.ally-theme-light .knd-footer {
+  --knd-social-color: #183343;
+  --knd-social-color-hover: #4d606a;
+}
+.ally-theme-light .knd-search {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.ally-theme-light .knd-search-toggle {
+  color: #585858;
+}
+.ally-theme-light .knd-search__form .knd-search__input {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.ally-theme-light .knd-search__form .knd-search__input::-moz-placeholder {
+  color: #585858;
+}
+.ally-theme-light .knd-search__form .knd-search__input::placeholder {
+  color: #585858;
+}
+.ally-theme-light .knd-search-close:before, .ally-theme-light .knd-search-close:after {
+  background-color: #585858;
+}
+.ally-theme-light .knd-to-top {
+  background-color: #e6e6e6;
+}
+.ally-theme-light .knd-to-top:hover .svg-icon {
+  fill: #4d606a;
+}
+.ally-theme-light .knd-to-top .svg-icon {
+  fill: #4d606a;
+}
+.ally-theme-light .wp-block-table.is-style-underline tbody tr:hover {
+  background-color: #f3f3f3;
+  color: #4d606a;
+}
+.ally-theme-light .social-likes__widget a {
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+.ally-theme-light .social-likes__widget a:hover {
+  background-color: #e6e6e6;
+}
+.ally-theme-light .social-likes__widget a .svg-icon {
+  fill: #4d606a;
+}
+.ally-theme-light .skip-to-main-content-link {
+  background-color: var(--knd-color-base);
+  color: var(--knd-page-bg-color);
+}
+.ally-theme-light img {
+  filter: none;
+}
+.ally-theme-light .wp-block-image figcaption {
+  color: #95a4ad;
+}
+.ally-theme-light .ally-settings button {
+  color: var(--knd-button-color);
+  background-color: var(--knd-button-background);
+  border-color: var(--knd-button-background);
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.ally-theme-light .ally-settings button:hover {
+  color: var(--knd-button-color-hover);
+  background-color: var(--knd-button-background-hover);
+  border-color: var(--knd-button-background-hover);
+}
 .ally-theme-dark {
   --knd-header-background: #0d1117;
-  --knd-color-main: #54c854;
-  --knd-color-main-active: #81b39e;
+  --knd-color-main: #59CE72;
+  --knd-color-main-active: #1bbed8;
   --knd-color-menu: #DEFEFE;
-  --knd-color-menu-hover: #81b39e;
-  --knd-page-bg-color: #21262d;
+  --knd-color-menu-hover: #1bbed8;
+  --knd-page-bg-color: #1d2327;
   --knd-page-bg-color-dark: #e6edf3;
   --knd-page-text-color-light: #e6edf3;
   --knd-color-base: #e6edf3;
@@ -45,14 +241,14 @@
   --knd-completed-project-color: #939393;
   --knd-social-color: #939393;
   --knd-social-color-hover: #e6edf3;
-  --knd-footer-background: #21262d;
+  --knd-footer-background: #1d2327;
   --knd-footer-heading-color: #e6edf3;
   --knd-footer-color: #e6edf3;
-  --knd-footer-link-color: #4abaff;
-  --knd-footer-link-color-hover: #81b39e;
+  --knd-footer-link-color: #73b0ff;
+  --knd-footer-link-color-hover: #1bbed8;
   --knd-button-color: #0d1117;
   --knd-button-color-hover: #0d1117;
-  --knd-color-light-grey: #21262d;
+  --knd-color-light-grey: #1d2327;
   --knd-preview-background: #808080;
   --knd-bd-gray: #353535;
 }
@@ -108,4 +304,116 @@
 .ally-theme-dark .skip-to-main-content-link {
   background-color: var(--knd-color-base);
   color: var(--knd-page-text-color-light);
+}
+.ally-theme-dark img {
+  filter: drop-shadow(1px 1px 0 rgba(255, 255, 255, 0.8));
+}
+.ally-theme-dark .wp-block-image figcaption {
+  color: #95a4ad;
+}
+.ally-theme-dark .ally-settings button {
+  color: var(--knd-button-color);
+  background-color: var(--knd-button-background);
+  border-color: var(--knd-button-background);
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.ally-theme-dark .ally-settings button:hover {
+  color: var(--knd-button-color-hover);
+  background-color: var(--knd-button-background-hover);
+  border-color: var(--knd-button-background-hover);
+}
+.ally-theme-blue {
+  --knd-header-background: #ade8f4;
+  --knd-color-main: #564946;
+  --knd-color-main-active: #8b0086;
+  --knd-color-menu: #03045e;
+  --knd-color-menu-hover: #8b0086;
+  --knd-page-bg-color: #caf0f8;
+  --knd-page-bg-color-dark: #cacaca;
+  --knd-page-text-color-light: #e7ffff;
+  --knd-color-base: #03045e;
+  --knd-color-headings: #023e8a;
+  --knd-completed-project-color: #03045e;
+  --knd-social-color: #023e8a;
+  --knd-social-color-hover: #03045e;
+  --knd-footer-background: #caf0f8;
+  --knd-footer-heading-color: #023e8a;
+  --knd-footer-color: #03045e;
+  --knd-footer-link-color: #0600ed;
+  --knd-footer-link-color-hover: #8b0086;
+  --knd-button-color: #fff;
+  --knd-button-color-hover: #fff;
+  --knd-color-light-grey: #caf0f8;
+  --knd-preview-background: #caf0f8;
+  --knd-bd-gray: #E9E9E9;
+}
+.ally-theme-blue .knd-header-nav {
+  --knd-color-menu: #03045e;
+  --knd-color-menu-hover: #8b0086;
+}
+.ally-theme-blue .knd-footer {
+  --knd-social-color: #023e8a;
+  --knd-social-color-hover: #03045e;
+}
+.ally-theme-blue .knd-search {
+  background-color: rgba(208, 246, 255, 0.84);
+}
+.ally-theme-blue .knd-search-toggle {
+  color: #585858;
+}
+.ally-theme-blue .knd-search__form .knd-search__input {
+  background-color: rgba(208, 246, 255, 0.84);
+}
+.ally-theme-blue .knd-search__form .knd-search__input::-moz-placeholder {
+  color: #585858;
+}
+.ally-theme-blue .knd-search__form .knd-search__input::placeholder {
+  color: #585858;
+}
+.ally-theme-blue .knd-search-close:before, .ally-theme-blue .knd-search-close:after {
+  background-color: #585858;
+}
+.ally-theme-blue .knd-to-top {
+  background-color: #023e8a;
+}
+.ally-theme-blue .knd-to-top:hover .svg-icon {
+  fill: #caf0f8;
+}
+.ally-theme-blue .knd-to-top .svg-icon {
+  fill: #caf0f8;
+}
+.ally-theme-blue .wp-block-table.is-style-underline tbody tr:hover {
+  background-color: #e5fcff;
+  color: #03045e;
+}
+.ally-theme-blue .social-likes__widget a {
+  border: 1px solid #03045e;
+  background-color: #023e8a;
+}
+.ally-theme-blue .social-likes__widget a:hover {
+  background-color: #03045e;
+}
+.ally-theme-blue .social-likes__widget a .svg-icon {
+  fill: #caf0f8;
+}
+.ally-theme-blue .skip-to-main-content-link {
+  background-color: var(--knd-color-base);
+  color: var(--knd-page-bg-color);
+}
+.ally-theme-blue img {
+  filter: none;
+}
+.ally-theme-blue .wp-block-image figcaption {
+  color: #464d51;
+}
+.ally-theme-blue .ally-settings button {
+  color: var(--knd-button-color);
+  background-color: var(--knd-button-background);
+  border-color: var(--knd-button-background);
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.ally-theme-blue .ally-settings button:hover {
+  color: var(--knd-button-color-hover);
+  background-color: var(--knd-button-background-hover);
+  border-color: var(--knd-button-background-hover);
 }/*# sourceMappingURL=colors-theme.css.map */

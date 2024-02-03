@@ -574,6 +574,7 @@ h6 {
 .the-content a:active {
 	color: var(--knd-color-main-active);
 	border-bottom-color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 .the-content h2,
@@ -1778,6 +1779,7 @@ body>svg {
 	background: var(--knd-color-main-active);
 	color: var(--knd-color-white);
 	border-color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 @media screen and (min-width: 800px) {
@@ -2022,6 +2024,7 @@ body>svg {
 .main-menu li>a:active {
 	background: var(--knd-color-main);
 	color: var(--knd-color-white);
+	text-decoration: underline;
 }
 
 .main-menu li a {
@@ -2120,6 +2123,7 @@ body>svg {
 
 .main-menu ul.sub-menu a:hover {
 	opacity: .7;
+	text-decoration: underline;
 }
 
 .main-menu ul.sub-menu a:focus {
@@ -2511,6 +2515,7 @@ body>svg {
 
 .knd-header-nav a:hover {
 	color: var(--knd-color-menu-hover, #dd1400);
+	text-decoration: underline;
 }
 
 .knd-header-nav .sub-menu {
@@ -2787,6 +2792,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 .knd-header__inner .knd-social-links li a:hover {
 	background-color: var(--knd-color-main);
+	text-decoration: underline;
 }
 
 .knd-header__inner .knd-social-links li a:hover .svg-icon {
@@ -2820,6 +2826,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 .bottom-bar .knd-social-links li a:hover {
 	color: var(--knd-social-color-hover, #000);
+	text-decoration: underline;
 }
 
 .bottom-bar .knd-social-links li a:hover .image-icon-mask .image-icon {
@@ -2856,6 +2863,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 .knd-footer a:focus,
 .knd-footer a:active {
 	color: var(--knd-footer-link-color-hover, #db3120);
+	text-decoration: underline;
 }
 
 .knd-footer .widget-area a:hover {
@@ -3114,8 +3122,8 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 }
 
 .knd-brand a:hover {
-	text-decoration: none;
 	color: var(--knd-footer-color, #4d606a);
+	text-decoration: underline;
 }
 
 .knd-brand .knd-banner {
@@ -3264,6 +3272,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 .social-likes__widget a:hover {
 	background-color: #e6e6e6;
+	text-decoration: underline;
 }
 
 .social-likes__widget a .svg-icon {
@@ -3341,7 +3350,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 .knd-breadcrumbs a:hover {
 	color: var(--knd-color-base);
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /* Pagination */
@@ -3551,9 +3560,14 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 	transition: color 0.3s, background 0.3s, border 0.3s, opacity 0.3s;
 }
 
+.tpl-post:hover {
+	text-decoration: underline;
+}
+
 .tpl-post:hover .entry-preview:after,
 .tpl-related-post:hover .entry-preview:after {
 	background: rgba(0, 0, 0, 0.1);
+	text-decoration: underline;
 }
 
 .tpl-post .thumbnail-link,
@@ -3562,6 +3576,11 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 	color: var(--knd-color-base);
 	position: relative;
 	height: 100%;
+}
+
+.tpl-post .thumbnail-link:hover,
+.tpl-related-post .thumbnail-link:hover {
+	text-decoration: underline;
 }
 
 .tpl-post .entry-data,
@@ -3870,6 +3889,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 
 .tpl-person .entry-meta a[href*="tel"]:hover {
 	color: var(--knd-color-base);
+	text-decoration: underline;
 }
 
 .tpl-person .entry-data {
@@ -4315,6 +4335,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 .page-crumb a:focus,
 .page-crumb a:active {
 	color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 .err-404-text {
@@ -4534,6 +4555,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 .post-type-archive-leyka_donation .heading a:hover {
 	color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 .post-type-archive-leyka_donation .knd-pagination,
@@ -4593,6 +4615,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 .related-card-holder a:hover {
 	color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 .related-cards-loop {
@@ -4730,6 +4753,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 .comment-reply-link:hover {
 	background: var(--knd-color-main-active);
 	border-color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 .comments-title,
@@ -4875,6 +4899,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 .comment-form a:hover {
 	color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 .comment-form .required {
@@ -5065,6 +5090,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 .widget-full.widget_text .textwidget a:active {
 	color: var(--knd-color-main-active);
 	border-bottom-color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 .widget-full.widget_text .textwidget h2,
@@ -5963,6 +5989,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 	background: var(--knd-color-main-active);
 	color: var(--knd-color-white);
 	border-color: var(--knd-color-main-active);
+	text-decoration: underline;
 }
 
 @media screen and (min-width: 480px) {
@@ -6029,6 +6056,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 .knd-events__toolbar .social-likes .social-likes__widget>a:hover {
 	background-color: #e6e6e6;
+	text-decoration: underline;
 }
 
 .knd-events__toolbar .social-likes .social-likes__widget>a svg {
@@ -6149,6 +6177,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 .knd-event__sticky-content a:hover {
 	background-size: 100% 2px;
+	text-decoration: underline;
 }
 
 .knd-event__sticky-dates {
@@ -6387,6 +6416,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 .knd-event__details h5 a:hover {
 	color: var(--knd-color-main);
+	text-decoration: underline;
 }
 
 .knd-event__details-item {
@@ -6890,6 +6920,7 @@ div[id*="leyka-pf-"] .inpage-card__thumb {
 
 .knd-entry-event__sharing .social-likes__widget a:hover {
 	background-color: #e6e6e6;
+	text-decoration: underline;
 }
 
 .knd-entry-event__sharing .social-likes__widget a .svg-icon {
