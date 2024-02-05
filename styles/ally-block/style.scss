@@ -163,6 +163,17 @@
                 border-color: var(--knd-button-background-hover) !important;
             }
         }
+
+        &-brown {
+            background-color: #4E1E1E !important;
+            color: #88ff20 !important;
+
+            &:hover {
+                color: var(--knd-button-color-hover) !important;
+                background-color: var(--knd-button-background-hover) !important;
+                border-color: var(--knd-button-background-hover) !important;
+            }
+        }
     }
 
     &-fz {

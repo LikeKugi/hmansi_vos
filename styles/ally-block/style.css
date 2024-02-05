@@ -131,6 +131,15 @@
   background-color: var(--knd-button-background-hover) !important;
   border-color: var(--knd-button-background-hover) !important;
 }
+#ally-theme-brown {
+  background-color: #4E1E1E !important;
+  color: #88ff20 !important;
+}
+#ally-theme-brown:hover {
+  color: var(--knd-button-color-hover) !important;
+  background-color: var(--knd-button-background-hover) !important;
+  border-color: var(--knd-button-background-hover) !important;
+}
 #ally-fz-normal {
   font-size: 18px !important;
 }

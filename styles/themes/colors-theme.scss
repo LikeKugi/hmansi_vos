@@ -186,7 +186,8 @@
     &-light {
 
         --knd-header-background: #fdfcfc;
-        --knd-color-main: #52a52e;
+        --knd-color-main: #3f7f24;
+        ;
         --knd-color-main-active: #c9006b;
 
         --knd-color-menu: #4d606a;
@@ -571,6 +572,190 @@
 
         & .wp-block-image figcaption {
             color: #464d51;
+        }
+
+        & .ally-settings button {
+            color: var(--knd-button-color);
+            background-color: var(--knd-button-background);
+            border-color: var(--knd-button-background);
+            transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+            &:hover {
+                color: var(--knd-button-color-hover);
+                background-color: var(--knd-button-background-hover);
+                border-color: var(--knd-button-background-hover);
+            }
+        }
+    }
+
+    /* BROWN */
+
+    &-brown {
+
+        --knd-header-background: #352112;
+        --knd-color-main: #88ff20;
+        --knd-color-main-active: #9effc5;
+
+        --knd-color-menu: #58E481;
+        --knd-color-menu-hover: #9effc5;
+
+        --knd-page-bg-color: #352112;
+        --knd-page-bg-color-dark: #88ff20;
+
+        --knd-page-text-color-light: #88ff20;
+        --knd-color-base: #58E481;
+
+        --knd-color-headings: #88ff20;
+        --knd-completed-project-color: #58E481;
+
+        --knd-social-color: #88ff20;
+        --knd-social-color-hover: #58E481;
+
+        --knd-footer-background: #352112;
+        --knd-footer-heading-color: #88ff20;
+        --knd-footer-color: #58E481;
+        --knd-footer-link-color: #88ff20;
+        --knd-footer-link-color-hover: #9effc5;
+
+        --knd-button-color: #352112;
+        --knd-button-color-hover: #30261e;
+
+        --knd-color-light-grey: #30261e;
+
+        --knd-preview-background: #30261e;
+
+        --knd-bd-gray: #88ff20;
+
+        & a {
+            text-decoration: underline !important;
+
+            &:hover {
+                background-color: var(--knd-color-main) !important;
+                color: var(--knd-page-bg-color) !important;
+
+                & * {
+                    color: var(--knd-page-bg-color) !important;
+                }
+
+                & .ally__text {
+                    color: var(--knd-color-main) !important;
+                }
+
+                &.knd-button {
+                    &:hover {
+                        color: var(--knd-color-main) !important;
+                        background-color: var(--knd-header-background) !important;
+                        border-color: var(--knd-color-main) !important;
+                    }
+                }
+            }
+        }
+
+
+
+        & .knd {
+            &-header-nav {
+                --knd-color-menu: #58E481;
+                --knd-color-menu-hover: #9effc5; // MAIN:hover
+            }
+
+            &-footer {
+                --knd-social-color: #88ff20;
+                --knd-social-color-hover: #58E481;
+            }
+
+            &-search {
+                background-color: rgba(208, 246, 255, 0.84);
+
+                &-toggle {
+                    color: #88ff20;
+                }
+
+                &__form .knd-search__input {
+                    background-color: rgba(208, 246, 255, 0.84);
+
+                    &::placeholder {
+                        color: #88ff20;
+                    }
+                }
+
+                &-close {
+
+                    &:before,
+                    &:after {
+                        background-color: #88ff20;
+                    }
+                }
+            }
+
+            &-to-top {
+                background-color: var(--knd-page-bg-color);
+                border: 2px solid var(--knd-color-main);
+
+                &:hover {
+                    background-color: var(--knd-color-main);
+
+                    & .svg-icon {
+                        fill: var(--knd-page-bg-color);
+                    }
+                }
+
+                & .svg-icon {
+                    fill: var(--knd-color-main);
+                }
+            }
+
+        }
+
+        & .wp-block-table.is-style-underline tbody tr {
+
+            & .has-inline-color {
+                color: var(--knd-color-base) !important;
+
+                &:hover {
+                    color: var(--knd-page-bg-color) !important;
+                }
+            }
+
+            &:hover {
+                background-color: #310000;
+                color: #58E481;
+            }
+        }
+
+
+        & .social-likes {
+            &__widget {
+                & a {
+                    border: 1px solid #58E481;
+                    background-color: var(--knd-page-bg-color);
+
+                    &:hover {
+                        background-color: #58E481;
+
+                        & .svg-icon {
+                            fill: var(--knd-page-bg-color);
+                        }
+                    }
+
+                    & .svg-icon {
+                        fill: #88ff20;
+                    }
+                }
+            }
+        }
+
+        & .skip-to-main-content-link {
+            background-color: var(--knd-color-base);
+            color: var(--knd-page-bg-color);
+        }
+
+        & img {
+            filter: drop-shadow(1px 1px 0 rgba(108, 247, 108, 0.829));
+        }
+
+        & .wp-block-image figcaption {
+            color: #88ff20;
         }
 
         & .ally-settings button {
