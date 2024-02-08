@@ -44,6 +44,20 @@
   font-size: var(--knd-block-post-title-fontsize, 18px);
   color: var(--knd-block-post-title-color, #4d606a);
 }
+.ally-hidden {
+  display: none !important;
+}
+.ally-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed var(--knd-color-main, #000);
+  color: var(--knd-color-base);
+  font-size: 1rem;
+}
+.ally-img-grayscale {
+  filter: grayscale(1) !important;
+}
 
 .controlls {
   padding-top: 0.5rem;

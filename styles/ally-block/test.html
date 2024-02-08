@@ -68,15 +68,15 @@
                 <h3 class="ally-menu__title" id="ally-fz">Размер шрифта</h3>
                 <ul class="ally-menu__submenu submenu" aria-labelledby="ally-fz">
                     <li class="submenu__item">
-                        <button class="submenu__btn" aria-label="Включить стандартный размер" id="ally-fz-normal"
-                            data-ally="ally-fz" data-ally-value="normal">Стандартный</button>
+                        <button class="submenu__btn" type="button" aria-label="Включить стандартный размер"
+                            id="ally-fz-normal" data-ally="ally-fz" data-ally-value="normal">Стандартный</button>
                     </li>
                     <li class="submenu__item">
-                        <button class="submenu__btn" aria-label="Включить средний размер" id="ally-fz-medium"
-                            data-ally="ally-fz" data-ally-value="medium">Средний</button>
+                        <button class="submenu__btn" type="button" aria-label="Включить средний размер"
+                            id="ally-fz-medium" data-ally="ally-fz" data-ally-value="medium">Средний</button>
                     </li>
                     <li class="submenu__item">
-                        <button class="submenu__btn" aria-label="Включить большой размер" id="ally-fz-big"
+                        <button class="submenu__btn" type="button" aria-label="Включить большой размер" id="ally-fz-big"
                             data-ally="ally-fz" data-ally-value="big">Большой</button>
                     </li>
                 </ul>
@@ -119,16 +119,17 @@
                 <h3 class="ally-menu__title" id="ally-ff">Шрифт</h3>
                 <ul class="ally-menu__submenu submenu" aria-labelledby="ally-ff">
                     <li class="submenu__item">
-                        <button class="submenu__btn" aria-label="Использовать шрифт с засечками" id="ally-ff-sans"
-                            data-ally="ally-ff" data-ally-value="sans">С засечками</button>
+                        <button class="submenu__btn" type="button" aria-label="Использовать шрифт с засечками"
+                            id="ally-ff-serif" data-ally="ally-ff" data-ally-value="serif">С засечками</button>
                     </li>
                     <li class="submenu__item">
-                        <button class="submenu__btn" aria-label="Использовать шрифт без засечек" id="ally-ff-serif"
-                            data-ally="ally-ff" data-ally-value="serif">Без засечек</button>
+                        <button class="submenu__btn" type="button" aria-label="Использовать шрифт без засечек"
+                            id="ally-ff-sans" data-ally="ally-ff" data-ally-value="sans">Без засечек</button>
                     </li>
                     <li class="submenu__item">
-                        <button class="submenu__btn" aria-label="Использовать шрифт, помогающий при дислексии"
-                            id="ally-ff-dyslexic" data-ally="ally-ff" data-ally-value="dyslexic">Для дислексии</button>
+                        <button class="submenu__btn" type="button"
+                            aria-label="Использовать шрифт, помогающий при дислексии" id="ally-ff-dyslexic"
+                            data-ally="ally-ff" data-ally-value="dyslexic">Для дислексии</button>
                     </li>
                 </ul>
             </div>
@@ -136,8 +137,12 @@
                 <h3 class="ally-menu__title" id="ally-img">Изображения</h3>
                 <ul class="ally-menu__submenu submenu" aria-labelledby="ally-img">
                     <li class="submenu__item">
-                        <button class="submenu__btn" type="button" aria-label="Показывать изображения"
-                            id="ally-img-show" data-ally="ally-img" data-ally-value="show">Есть</button>
+                        <button class="submenu__btn" type="button" aria-label="Показывать стандартные изображения"
+                            id="ally-img-show" data-ally="ally-img" data-ally-value="show">Стандартные</button>
+                    </li>
+                    <li class="submenu__item">
+                        <button class="submenu__btn" type="button" aria-label="Сделать изображения черно-белыми"
+                            id="ally-img-gray" data-ally="ally-img" data-ally-value="gray">Чёрно-белые</button>
                     </li>
                     <li class="submenu__item">
                         <button class="submenu__btn" type="button" aria-label="Убрать изображения" id="ally-img-hide"
@@ -176,6 +181,14 @@
         <li><button>8</button></li>
         <li><button>9</button></li>
         <li><button>10</button></li>
+    </ul>
+    <ul>
+        <li><img src="https://avatars.mds.yandex.net/i?id=463e07fc810ec4a42a59fd9ec5e9cb76_sr-9262149-images-thumbs&n=13"
+                alt="first image" title="First Image Title"></li>
+        <li><img src="https://fikiwiki.com/uploads/posts/2022-02/1645039712_25-fikiwiki-com-p-kartinki-logotipov-25.png"
+                alt="second image" aria-label="Second Image Aria"></li>
+        <li><img src="https://ktk-msk.ru/wp-content/uploads/2014/12/ceo11.jpg" alt="Third Image Alt"></li>
+        <li><img src="https://i.pinimg.com/736x/b0/20/de/b020de62acb7113578bbe80b0d51e269.jpg" alt=""></li>
     </ul>
     <div id="active" style="position: absolute; top: 50%;">
 

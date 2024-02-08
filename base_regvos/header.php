@@ -114,7 +114,10 @@
 				<h3 class="ally-menu__title" id="ally-img">Изображения</h3>
 				<ul class="ally-menu__submenu submenu" aria-labelledby="ally-img">
 					<li class="submenu__item">
-						<button class="submenu__btn" type="button" aria-label="Показывать изображения" id="ally-img-show" data-ally="ally-img" data-ally-value="show">Есть</button>
+						<button class="submenu__btn" type="button" aria-label="Показывать стандартные изображения" id="ally-img-show" data-ally="ally-img" data-ally-value="show">Стандартные</button>
+					</li>
+					<li class="submenu__item">
+						<button class="submenu__btn" type="button" aria-label="Сделать изображения черно-белыми" id="ally-img-gray" data-ally="ally-img" data-ally-value="gray">Чёрно-белые</button>
 					</li>
 					<li class="submenu__item">
 						<button class="submenu__btn" type="button" aria-label="Убрать изображения" id="ally-img-hide" data-ally="ally-img" data-ally-value="hide">Нет</button>

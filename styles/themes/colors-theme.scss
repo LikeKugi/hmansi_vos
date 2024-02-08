@@ -44,6 +44,7 @@
 
 :root {
     color-scheme: light dark;
+    --knd-button-background: var(--knd-color-main, #3f7f24)
 }
 
 @media (prefers-color-scheme: dark) {
@@ -625,6 +626,10 @@
         --knd-preview-background: #30261e;
 
         --knd-bd-gray: #88ff20;
+
+        & #menu-glavnoe-menyu-1 a:hover .ally__text {
+            color: var(--knd-page-bg-color) !important;
+        }
 
         & a {
             text-decoration: underline !important;

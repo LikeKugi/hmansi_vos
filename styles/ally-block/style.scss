@@ -57,6 +57,25 @@
             color: var(--knd-block-post-title-color, #4d606a);
         }
     }
+
+    &-hidden {
+        display: none !important;
+    }
+
+    &-img {
+        &-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px dashed var(--knd-color-main, #000);
+            color: var(--knd-color-base);
+            font-size: 1rem;
+        }
+
+        &-grayscale {
+            filter: grayscale(1) !important;
+        }
+    }
 }
 
 .controlls {
