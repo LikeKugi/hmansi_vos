@@ -16,7 +16,6 @@
 	--knd-image-border-radius: 8px;
 	--knd-adminbar-height: 32px;
 	--scroll-bar-width: 15px;
-
 }
 
 @media (max-width: 765px) {
@@ -2678,6 +2677,7 @@ body:not(.dom-loaded) .knd-header-nav .sub-menu {
 	padding: 18px 30px;
 	width: 100%;
 	border: 2px solid var(--knd-color-main);
+	color: var(--knd-color-base);
 }
 
 .site-nav .knd-search__form .knd-search__input {
