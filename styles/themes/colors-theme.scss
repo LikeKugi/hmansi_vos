@@ -589,8 +589,6 @@
         }
     }
 
-    /* BROWN */
-
     &-brown {
 
         --knd-header-background: #352112;
@@ -670,14 +668,14 @@
             }
 
             &-search {
-                background-color: rgba(208, 246, 255, 0.84);
+                background-color: rgba(59, 30, 19, 0.9);
 
                 &-toggle {
                     color: #88ff20;
                 }
 
                 &__form .knd-search__input {
-                    background-color: rgba(208, 246, 255, 0.84);
+                    background-color: rgba(59, 30, 19, 0.9);
 
                     &::placeholder {
                         color: #88ff20;
