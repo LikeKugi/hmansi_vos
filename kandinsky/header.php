@@ -58,13 +58,13 @@
 				<h3 class="ally-menu__title" id="ally-fz">Размер шрифта</h3>
 				<ul class="ally-menu__submenu submenu" aria-labelledby="ally-fz">
 					<li class="submenu__item">
-						<button class="submenu__btn" aria-label="Включить стандартный размер" id="ally-fz-normal" data-ally="ally-fz" data-ally-value="normal">Стандартный</button>
+						<button class="submenu__btn" type="button" aria-label="Включить стандартный размер" id="ally-fz-normal" data-ally="ally-fz" data-ally-value="normal">Стандартный</button>
 					</li>
 					<li class="submenu__item">
-						<button class="submenu__btn" aria-label="Включить средний размер" id="ally-fz-medium" data-ally="ally-fz" data-ally-value="medium">Средний</button>
+						<button class="submenu__btn" type="button" aria-label="Включить средний размер" id="ally-fz-medium" data-ally="ally-fz" data-ally-value="medium">Средний</button>
 					</li>
 					<li class="submenu__item">
-						<button class="submenu__btn" aria-label="Включить большой размер" id="ally-fz-big" data-ally="ally-fz" data-ally-value="big">Большой</button>
+						<button class="submenu__btn" type="button" aria-label="Включить большой размер" id="ally-fz-big" data-ally="ally-fz" data-ally-value="big">Большой</button>
 					</li>
 				</ul>
 			</div>
@@ -100,13 +100,13 @@
 				<h3 class="ally-menu__title" id="ally-ff">Шрифт</h3>
 				<ul class="ally-menu__submenu submenu" aria-labelledby="ally-ff">
 					<li class="submenu__item">
-						<button class="submenu__btn" aria-label="Использовать шрифт с засечками" id="ally-ff-serif" data-ally="ally-ff" data-ally-value="serif">С засечками</button>
+						<button class="submenu__btn" type="button" aria-label="Использовать шрифт с засечками" id="ally-ff-serif" data-ally="ally-ff" data-ally-value="serif">С засечками</button>
 					</li>
 					<li class="submenu__item">
-						<button class="submenu__btn" aria-label="Использовать шрифт без засечек" id="ally-ff-sans" data-ally="ally-ff" data-ally-value="sans">Без засечек</button>
+						<button class="submenu__btn" type="button" aria-label="Использовать шрифт без засечек" id="ally-ff-sans" data-ally="ally-ff" data-ally-value="sans">Без засечек</button>
 					</li>
 					<li class="submenu__item">
-						<button class="submenu__btn" aria-label="Использовать шрифт, помогающий при дислексии" id="ally-ff-dyslexic" data-ally="ally-ff" data-ally-value="dyslexic">Для дислексии</button>
+						<button class="submenu__btn" type="button" aria-label="Использовать шрифт, помогающий при дислексии" id="ally-ff-dyslexic" data-ally="ally-ff" data-ally-value="dyslexic">Для дислексии</button>
 					</li>
 				</ul>
 			</div>
@@ -114,7 +114,10 @@
 				<h3 class="ally-menu__title" id="ally-img">Изображения</h3>
 				<ul class="ally-menu__submenu submenu" aria-labelledby="ally-img">
 					<li class="submenu__item">
-						<button class="submenu__btn" type="button" aria-label="Показывать изображения" id="ally-img-show" data-ally="ally-img" data-ally-value="show">Есть</button>
+						<button class="submenu__btn" type="button" aria-label="Показывать стандартные изображения" id="ally-img-show" data-ally="ally-img" data-ally-value="show">Стандартные</button>
+					</li>
+					<li class="submenu__item">
+						<button class="submenu__btn" type="button" aria-label="Сделать изображения черно-белыми" id="ally-img-gray" data-ally="ally-img" data-ally-value="gray">Чёрно-белые</button>
 					</li>
 					<li class="submenu__item">
 						<button class="submenu__btn" type="button" aria-label="Убрать изображения" id="ally-img-hide" data-ally="ally-img" data-ally-value="hide">Нет</button>

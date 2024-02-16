@@ -81,6 +81,8 @@ const handleResetButton = () => {
     resetBodyClasses();
     resetDocumentCookies();
     removeSpeechListeners();
+    showImage();
+    colorImages();
 };
 
 
@@ -131,10 +133,25 @@ const handleAllyButtonClick = (e) => {
         return;
     }
 
-    if (cookieName === "ally-img" && cookieValue === "show") {
-        clearImages();
-        deleteCookie(cookieName);
-        return;
+    if (cookieName === "ally-img") {
+        if (cookieValue === "show") {
+            showImage();
+            colorImages();
+            clearImages();
+            deleteCookie(cookieName);
+            return;
+        }
+        if (cookieValue === 'gray') {
+            showImage();
+            grayscaleImages();
+        }
+        if (cookieValue === 'hide' && !root.classList.contains('ally-img-hide')) {
+            showImage();
+            hideImages();
+        }
+        if (root.classList.contains(`${cookieName}-${cookieValue}`)) {
+            return;
+        }
     }
 
     if (cookieName === "ally-speech") {
@@ -230,6 +247,10 @@ const disableSpeechBtn = document.querySelector("#ally-speech-hide");
 const ref = {
     current: null,
 };
+
+const trottle = {
+    current: true,
+}
 
 if ("speechSynthesis" in window) {
     enableSpeechBtn.disabled = false;
@@ -411,6 +432,11 @@ function chooseVariantOfSpeech(tag) {
 }
 
 function handleMouseMove(e) {
+    if (!trottle.current) {
+        return;
+    }
+    trottle.current = false;
+    setTimeout(() => trottle.current = true, 100);
     chooseVariantOfSpeech(e.target);
 }
 
@@ -419,3 +445,52 @@ function handleKeyboardNavigation(e) {
         chooseVariantOfSpeech(document.querySelector(':focus'))
     }
 }
+
+// --------------------------------------------
+
+if (root.classList.contains('ally-img-hide')) {
+    hideImages()
+}
+
+if (root.classList.contains('ally-img-gray')) {
+    grayscaleImages();
+}
+
+function hideImages() {
+    const images = document.querySelectorAll('img');
+    images.forEach(image => {
+        if (image.classList.contains('ally-hidden')) {
+            return;
+        }
+        const { width: imageWidth, height: imageHeight } = window.getComputedStyle(image);
+
+        text = image.title || image.ariaLabel || image.alt || 'Нет описания'
+
+        const div = `<div class="ally-img-div" style="width:${imageWidth}; height:${imageHeight};">${text}</div>`;
+
+        image.insertAdjacentHTML('afterend', div);
+        image.classList.add('ally-hidden');
+    })
+}
+
+function showImage() {
+    const divs = document.querySelectorAll('.ally-img-div');
+    images = document.querySelectorAll('img');
+
+    divs.forEach(div => {
+        div.remove();
+    })
+    images.forEach(image => image.classList.remove('ally-hidden'));
+}
+
+function grayscaleImages() {
+    const images = document.querySelectorAll('img');
+
+    images.forEach(image => image.classList.add('ally-img-grayscale'));
+}
+
+function colorImages() {
+    const images = document.querySelectorAll('img');
+
+    images.forEach(image => image.classList.remove('ally-img-grayscale'));
+} 
