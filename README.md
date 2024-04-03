@@ -16,3 +16,11 @@
 3) Change files from `kandinsky` to files from `base_regvos` folder
 4) Add styles from `styles` folder
 5) Add ally-btn to site header menu (23 - 38 lines in styles/ally-btn/index.html)
+
+## Screenshots
+
+view
+![site](screenshots/img-1.PNG)
+
+ally block
+![ally block](screenshots/img-2.PNG)
